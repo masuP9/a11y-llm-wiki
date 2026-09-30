@@ -49,6 +49,9 @@ spec_repos:
   # --- 水平レビュー (APA) ---
   - repo: w3c/a11y-request
     group: APA / 水平レビュー
+  # WAI-Adapt TF (APA 配下。利用者ごとの表示の個人化、Symbols など)
+  - repo: w3c/adapt
+    group: APA / 水平レビュー
   - repo: w3c/csswg-drafts
     group: APA / 水平レビュー
     labels: [a11y-tracker, a11y-needs-resolution]
@@ -83,6 +86,8 @@ minutes:
   # 定例 (月) と WCAG 3 レビュー (木)・Research サブグループ (火) がすべて coga で記録される
   - name: coga
     label: COGA TF
+  - name: adapt
+    label: WAI-Adapt TF
 
 # ---------------------------------------------------------------
 # 3. フィード (RSS / Atom)。keywords があればタイトル+概要で絞る
