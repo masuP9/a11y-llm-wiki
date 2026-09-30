@@ -93,7 +93,9 @@ jobs:
           f="wiki/weekly/${{ steps.collect.outputs.week }}.md"
           [ -f "$f" ] || { echo "digest not found: $f"; exit 0; }
           # frontmatter を除いた本文を Issue にする (GitHub 通知で届く)
-          awk 'BEGIN{n=0} /^---$/ && n<2 {n++; next} n>=2' "$f" > /tmp/body.md
+          # [[specs/foo]] 形式の wiki リンクは GitHub ではリンクにならないので、ファイルの URL に置き換える
+          awk 'BEGIN{n=0} /^---$/ && n<2 {n++; next} n>=2' "$f" \
+            | sed -E "s#\[\[([^]|]+)\]\]#[\1]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/blob/main/wiki/\1.md)#g" > /tmp/body.md
           printf '\n\n---\n[wiki で読む](%s/%s/blob/main/%s)\n' "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$f" >> /tmp/body.md
           gh label create digest --color 0E8A16 2>/dev/null || true
           gh issue create --title "Web Accessibility Weekly ${{ steps.collect.outputs.week }}" \

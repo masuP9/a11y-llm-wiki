@@ -81,7 +81,7 @@ minutes:
 # ---------------------------------------------------------------
 feeds:
   - name: W3C WAI News
-    url: https://www.w3.org/WAI/news/feed.xml
+    url: https://www.w3.org/WAI/feed.xml
     group: W3C
   - name: W3C News
     url: https://www.w3.org/news/feed/
