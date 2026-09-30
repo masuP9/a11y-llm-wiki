@@ -1,0 +1,3309 @@
+{
+  "since": "2026-09-23T13:20:38Z",
+  "until": "2026-09-30T13:20:38Z",
+  "spec_items": [
+    {
+      "repo": "w3c/wcag",
+      "number": 5384,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "Target Size: Inline link adjacent to control",
+      "url": "https://github.com/w3c/wcag/issues/5384",
+      "user": "aardrian",
+      "labels": [
+        "2.5.8 Target Size (Minimum)"
+      ],
+      "comments": 4,
+      "created_at": "2026-09-29T14:22:27Z",
+      "updated_at": "2026-09-29T20:34:58Z",
+      "body": "## Set-up I have a styled select menu that is 24px in height (and more in width). It satisfies SC 2.5.8 without using any exceptions. Immediately following (below) the select menu is a sentence of text. That sentence has two links which meet the _Inline_ exception for 2.5.8 when evaluating them against one another. However, that sentence is positioned close enough (margin 0) to the select menu tha…",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag",
+      "number": 5373,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "Conforming Alternate Version (CAV) and the mechanism to reach/achieve it",
+      "url": "https://github.com/w3c/wcag/issues/5373",
+      "user": "patrickhlauke",
+      "labels": [
+        "3.3.2 Labels or instructions",
+        "Conformance WCAG 2.x",
+        "2.4.6 Headings and Labels",
+        "Response-Only"
+      ],
+      "comments": 1,
+      "created_at": "2026-09-23T15:10:51Z",
+      "updated_at": "2026-09-28T13:38:55Z",
+      "body": "This issue tries to summarise the lengthy discussion (with additional tangents) in [Are there circumstances in which an overlay tool could be seen as providing a conforming alternate version for a non-conforming website? #2750](https://github.com/w3c/wcag/issues/2750), getting to the crux of the argument presented by @detlevhfischer ### Background Note that this is *not* about \"can overlay tools e…",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag",
+      "number": 2750,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Are there circumstances in which an overlay tool could be seen as providing a conforming alternate version for a non-conforming website?",
+      "url": "https://github.com/w3c/wcag/issues/2750",
+      "user": "patrickhlauke",
+      "labels": [
+        "Conformance WCAG 2.x",
+        "Response-Only"
+      ],
+      "comments": 79,
+      "created_at": "2022-10-25T12:14:22Z",
+      "updated_at": "2026-09-23T15:14:22Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag",
+      "number": 5381,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "[spam]",
+      "url": "https://github.com/w3c/wcag/issues/5381",
+      "user": "basakbitu115-design",
+      "labels": [],
+      "comments": 1,
+      "created_at": "2026-09-28T19:45:20Z",
+      "updated_at": "2026-09-28T19:49:18Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag",
+      "number": 5385,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "[spam]",
+      "url": "https://github.com/w3c/wcag/issues/5385",
+      "user": "colinandres885-boop",
+      "labels": [],
+      "comments": 0,
+      "created_at": "2026-09-30T04:05:38Z",
+      "updated_at": "2026-09-30T06:58:02Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag",
+      "number": 5382,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "[spam]",
+      "url": "https://github.com/w3c/wcag/issues/5382",
+      "user": "basakbitu115-design",
+      "labels": [],
+      "comments": 0,
+      "created_at": "2026-09-28T19:48:47Z",
+      "updated_at": "2026-09-28T20:07:45Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag",
+      "number": 5380,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "ليؤاثة",
+      "url": "https://github.com/w3c/wcag/issues/5380",
+      "user": "g2240992-bot",
+      "labels": [],
+      "comments": 0,
+      "created_at": "2026-09-28T06:41:28Z",
+      "updated_at": "2026-09-28T06:42:25Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag",
+      "number": 5379,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "[spam]",
+      "url": "https://github.com/w3c/wcag/issues/5379",
+      "user": "g2240992-bot",
+      "labels": [],
+      "comments": 0,
+      "created_at": "2026-09-28T00:25:15Z",
+      "updated_at": "2026-09-28T00:31:27Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag",
+      "number": 5378,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "[spam]",
+      "url": "https://github.com/w3c/wcag/issues/5378",
+      "user": "allkasirkazemsaadi-beep",
+      "labels": [],
+      "comments": 0,
+      "created_at": "2026-09-27T20:20:44Z",
+      "updated_at": "2026-09-27T20:37:18Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag",
+      "number": 3029,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Must focusable elements have a role?",
+      "url": "https://github.com/w3c/wcag/issues/3029",
+      "user": "jamesjacobs",
+      "labels": [
+        "WCAG 2.0",
+        "4.1.2 Name Role Value",
+        "2.4.3 Focus Order",
+        "Response-Only"
+      ],
+      "comments": 60,
+      "created_at": "2023-02-16T12:01:47Z",
+      "updated_at": "2026-09-28T16:24:45Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag",
+      "number": 3264,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "3.3.8/3.3.9: How is \"authentication process\" defined?",
+      "url": "https://github.com/w3c/wcag/issues/3264",
+      "user": "dbjorge",
+      "labels": [
+        "Understanding",
+        "WCAG 2.2",
+        "3.3.7 Accessible Authentication",
+        "3.3.8 Accessible Authentication (No Exception)",
+        "Substantive"
+      ],
+      "comments": 39,
+      "created_at": "2023-07-03T17:59:28Z",
+      "updated_at": "2026-09-23T17:57:31Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag",
+      "number": 696,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Overlap between 3.3.1 and 4.1.2?",
+      "url": "https://github.com/w3c/wcag/issues/696",
+      "user": "patrickhlauke",
+      "labels": [
+        "Understanding"
+      ],
+      "comments": 14,
+      "created_at": "2019-04-15T12:57:56Z",
+      "updated_at": "2026-09-25T17:57:30Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 878,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "Definition of decorative images update",
+      "url": "https://github.com/w3c/wcag3/issues/878",
+      "user": "alastc",
+      "labels": [
+        "P - Decorative images hidden"
+      ],
+      "comments": 4,
+      "created_at": "2026-09-29T08:14:44Z",
+      "updated_at": "2026-09-30T11:16:29Z",
+      "body": "And interesting [article from Nic Steenhout](https://nicolas-steenhout.com/retire-decorative-images/), a couple of quotes: > Consider a hero image on an article about burnout: Someone sitting alone at a kitchen table late at night... it adds a feeling of loneliness and exhaustion. > > An image can be non-informative without being meaningless. > > In accessibility audits, I routinely see recommenda…",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 879,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "It is unclear why Hover content persistent has been broken into a separate requirement",
+      "url": "https://github.com/w3c/wcag3/issues/879",
+      "user": "rachaelbradley",
+      "labels": [
+        "P - Hover content persistent",
+        "P - Hover or focus content persistent"
+      ],
+      "comments": 1,
+      "created_at": "2026-09-29T18:27:46Z",
+      "updated_at": "2026-09-29T19:05:23Z",
+      "body": "During the categorization exercise today, members had difficulty understanding why Hover content persistent had been broken apart from Hover or focus content persistent. I suggest considering whether hover content persistent can be removed and Hover of focus content persistent can be moved into core requirements.",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 877,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "And/or in “Error messages collocated” is confusing",
+      "url": "https://github.com/w3c/wcag3/issues/877",
+      "user": "hidde",
+      "labels": [
+        "P - Error messages collocated"
+      ],
+      "comments": 0,
+      "created_at": "2026-09-28T15:55:40Z",
+      "updated_at": "2026-09-28T15:55:49Z",
+      "body": "Provision text: > Error messages are visually collocated with the error source or the focus is moved to the error message and a mechanism is available to move to the input that is in error. The use of 'or' and 'and' is confusing as there are multiple ways to interpret it. Let's fix this.",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 876,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "Sign language: make it count in tiers and usable by policy tags",
+      "url": "https://github.com/w3c/wcag3/issues/876",
+      "user": "alastc",
+      "labels": [
+        "Path: Sign language"
+      ],
+      "comments": 0,
+      "created_at": "2026-09-28T10:02:25Z",
+      "updated_at": "2026-09-28T10:02:49Z",
+      "body": "From James Cameron-Morris to the public-agwg-comments list: <hr> Hello AG WG, I am Deaf and BSL is my first language. I also build websites for small businesses in the UK, so I look at WCAG both as someone who relies on it and as someone who implements it. This comment is about Guideline 2.1.7 Sign language in the 10 September 2026 Working Draft, and how it fits the new conformance model described…",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 259,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Email: Siteimprove Comments on WCAG 3.0 Draft (3 - Conformance testing is difficult to carry out reliably and in a reproducible manner)",
+      "url": "https://github.com/w3c/wcag3/issues/259",
+      "user": "cwadamsoforacle",
+      "labels": [
+        "Conformance"
+      ],
+      "comments": 3,
+      "created_at": "2021-04-08T21:24:11Z",
+      "updated_at": "2026-09-24T15:01:48Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 506,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Retro-Compatibility",
+      "url": "https://github.com/w3c/wcag3/issues/506",
+      "user": "sydneycolemanfromgoogle",
+      "labels": [
+        "Conformance"
+      ],
+      "comments": 2,
+      "created_at": "2026-01-14T19:59:30Z",
+      "updated_at": "2026-09-24T16:34:39Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 230,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Improving equity between different disabilities",
+      "url": "https://github.com/w3c/wcag3/issues/230",
+      "user": "jspellman",
+      "labels": [
+        "Conformance"
+      ],
+      "comments": 2,
+      "created_at": "2022-06-02T11:07:33Z",
+      "updated_at": "2026-09-24T16:11:21Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 258,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "UsableNet - WCAG Team comment - Consider the legal and practical importance of conformance.",
+      "url": "https://github.com/w3c/wcag3/issues/258",
+      "user": "UsableNet-WCAG",
+      "labels": [
+        "Conformance"
+      ],
+      "comments": 2,
+      "created_at": "2021-04-18T12:46:45Z",
+      "updated_at": "2026-09-24T15:12:21Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 260,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Email: Siteimprove Comments on WCAG 3.0 Draft (2 - Testing is difficult to carry out efficiently)",
+      "url": "https://github.com/w3c/wcag3/issues/260",
+      "user": "cwadamsoforacle",
+      "labels": [
+        "Management: Please Review",
+        "Conformance"
+      ],
+      "comments": 2,
+      "created_at": "2021-04-08T21:20:15Z",
+      "updated_at": "2026-09-24T15:08:04Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 280,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Email: Intopia Feedback - WCAG 3.0 FPWD (5 - Processes)",
+      "url": "https://github.com/w3c/wcag3/issues/280",
+      "user": "jspellman",
+      "labels": [
+        "Management: Please Review",
+        "Conformance"
+      ],
+      "comments": 2,
+      "created_at": "2021-03-12T15:23:34Z",
+      "updated_at": "2026-09-24T15:06:17Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 281,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Email: Intopia Feedback - WCAG 3.0 FPWD (4 - Testing)",
+      "url": "https://github.com/w3c/wcag3/issues/281",
+      "user": "jspellman",
+      "labels": [
+        "Conformance"
+      ],
+      "comments": 2,
+      "created_at": "2021-03-12T15:21:41Z",
+      "updated_at": "2026-09-24T15:05:33Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 252,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "UsableNet Feedback/Input on Representative Sample",
+      "url": "https://github.com/w3c/wcag3/issues/252",
+      "user": "UsableNet-WCAG",
+      "labels": [
+        "Conformance",
+        "Guidance: Testing"
+      ],
+      "comments": 1,
+      "created_at": "2021-09-01T20:55:57Z",
+      "updated_at": "2026-09-24T16:13:35Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 246,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Need clear intention of mentioning web content publisher's responsibility for user generated contents",
+      "url": "https://github.com/w3c/wcag3/issues/246",
+      "user": "a11ydoer",
+      "labels": [
+        "Management: Please Review",
+        "Conformance"
+      ],
+      "comments": 1,
+      "created_at": "2021-12-17T16:16:19Z",
+      "updated_at": "2026-09-24T15:15:42Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 255,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Trusted Tester sampling guidance",
+      "url": "https://github.com/w3c/wcag3/issues/255",
+      "user": "kengdoj",
+      "labels": [
+        "Conformance"
+      ],
+      "comments": 1,
+      "created_at": "2021-08-25T23:45:21Z",
+      "updated_at": "2026-09-24T15:10:36Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 254,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Trusted Tester comment on WCAG3 draft: Conformance Levels",
+      "url": "https://github.com/w3c/wcag3/issues/254",
+      "user": "kengdoj",
+      "labels": [
+        "Conformance"
+      ],
+      "comments": 1,
+      "created_at": "2021-08-25T23:52:27Z",
+      "updated_at": "2026-09-24T14:58:59Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 244,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Consider Adding New Requirements to Reporting",
+      "url": "https://github.com/w3c/wcag3/issues/244",
+      "user": "rachaelbradley",
+      "labels": [
+        "Conformance"
+      ],
+      "comments": 1,
+      "created_at": "2022-01-06T15:55:09Z",
+      "updated_at": "2026-09-24T14:55:53Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 102,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Feedback on conformance",
+      "url": "https://github.com/w3c/wcag3/issues/102",
+      "user": "katekalcevich",
+      "labels": [
+        "Management: Please Review",
+        "Conformance"
+      ],
+      "comments": 1,
+      "created_at": "2024-07-12T21:50:26Z",
+      "updated_at": "2026-09-24T14:50:28Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 416,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Composition of Functional needs",
+      "url": "https://github.com/w3c/wcag3/issues/416",
+      "user": "spanchang",
+      "labels": [
+        "Conformance"
+      ],
+      "comments": 1,
+      "created_at": "2025-11-14T19:34:00Z",
+      "updated_at": "2026-09-24T14:42:04Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 450,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Starting point position - Clarify the differences between good practice and best practice",
+      "url": "https://github.com/w3c/wcag3/issues/450",
+      "user": "giacomo-petri",
+      "labels": [
+        "Conformance",
+        "Path: User orientation⹁ layout and structure",
+        "P - Return to start prominent"
+      ],
+      "comments": 1,
+      "created_at": "2025-12-24T16:25:43Z",
+      "updated_at": "2026-09-24T14:30:09Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 510,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Image Alternatives (Foundational Requirements)",
+      "url": "https://github.com/w3c/wcag3/issues/510",
+      "user": "sydneycolemanfromgoogle",
+      "labels": [
+        "Conformance",
+        "Path: Image and media alternatives"
+      ],
+      "comments": 1,
+      "created_at": "2026-01-14T20:30:29Z",
+      "updated_at": "2026-09-24T14:04:39Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 509,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Add sampling methodology to WCAG?",
+      "url": "https://github.com/w3c/wcag3/issues/509",
+      "user": "sydneycolemanfromgoogle",
+      "labels": [
+        "Conformance"
+      ],
+      "comments": 4,
+      "created_at": "2026-01-14T20:29:10Z",
+      "updated_at": "2026-09-24T14:18:31Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 103,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Issue severity evaluations",
+      "url": "https://github.com/w3c/wcag3/issues/103",
+      "user": "katekalcevich",
+      "labels": [
+        "Management: Future Agenda",
+        "Management: Please Review",
+        "Conformance"
+      ],
+      "comments": 3,
+      "created_at": "2024-07-12T22:10:13Z",
+      "updated_at": "2026-09-24T14:47:46Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 572,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Biometrics overlap",
+      "url": "https://github.com/w3c/wcag3/issues/572",
+      "user": "alastc",
+      "labels": [
+        "Path: Input and focus⹁ interactive components",
+        "P - Biometrics not relied on",
+        "P - Multiple biometrics available",
+        "P - Voice identification not relied on"
+      ],
+      "comments": 2,
+      "created_at": "2026-02-16T15:34:52Z",
+      "updated_at": "2026-09-29T19:19:11Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 634,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Assertions Feedback and Follow up Q's",
+      "url": "https://github.com/w3c/wcag3/issues/634",
+      "user": "sydneycolemanfromgoogle",
+      "labels": [
+        "Other: Guideline Approach",
+        "Assertions"
+      ],
+      "comments": 2,
+      "created_at": "2026-04-07T01:02:27Z",
+      "updated_at": "2026-09-24T16:37:07Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 237,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Tag requirements for machine-testability",
+      "url": "https://github.com/w3c/wcag3/issues/237",
+      "user": "mbgower",
+      "labels": [
+        "Other: Guideline Approach"
+      ],
+      "comments": 1,
+      "created_at": "2022-01-18T17:35:45Z",
+      "updated_at": "2026-09-24T16:38:24Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 419,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Identify functional needs as part of normative WCAG 3.0",
+      "url": "https://github.com/w3c/wcag3/issues/419",
+      "user": "spanchang",
+      "labels": [
+        "Other: Guideline Approach",
+        "Conformance"
+      ],
+      "comments": 1,
+      "created_at": "2025-11-24T14:38:09Z",
+      "updated_at": "2026-09-24T14:39:22Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 655,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Assertions are too long and hard to follow. Please replace the  text of how to write an assertion, with a link.",
+      "url": "https://github.com/w3c/wcag3/issues/655",
+      "user": "lseeman",
+      "labels": [
+        "coga"
+      ],
+      "comments": 1,
+      "created_at": "2026-04-23T08:25:19Z",
+      "updated_at": "2026-09-24T13:52:53Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag3",
+      "number": 682,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "We need a Page Variations conformance requirement",
+      "url": "https://github.com/w3c/wcag3/issues/682",
+      "user": "fstrr",
+      "labels": [
+        "Conformance"
+      ],
+      "comments": 1,
+      "created_at": "2026-05-29T23:06:12Z",
+      "updated_at": "2026-09-24T13:44:00Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 1002,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "Key Terms: Comments on changes to this section",
+      "url": "https://github.com/w3c/wcag2ict/issues/1002",
+      "user": "maryjom",
+      "labels": [],
+      "comments": 0,
+      "created_at": "2026-09-24T20:51:00Z",
+      "updated_at": "2026-09-29T12:25:49Z",
+      "body": "I had a couple of editorial comments on the changes in the Key Terms section. - WCAG2ICT introduced the term \"document\" (now non-web document) which is not in WCAG 2. So there is no need to have the notation \"(ADDED)\" on all of the notes for this term. This is consistent with the way notes are handled for other new terms that were introduced in WCAG2ICT such as \"platform software\", etc. The \"(ADDE…",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 995,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: SC problematic for closed functionality, new content for level AAA - WCAG2ICT guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/995",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 5,
+      "created_at": "2026-09-16T08:51:23Z",
+      "updated_at": "2026-09-29T12:28:40Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 903,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: 1.3.6 Identify Purpose (Level AAA) WCAG2ICT Guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/903",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 5,
+      "created_at": "2026-04-17T07:16:36Z",
+      "updated_at": "2026-09-28T14:30:43Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 892,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: 1.4.6 Contrast (Enhanced) (Level AAA) WCAG2ICT Guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/892",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 4,
+      "created_at": "2026-04-16T12:52:44Z",
+      "updated_at": "2026-09-30T09:48:25Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 896,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: 2.1.3 Keyboard (No Exception) (Level AAA) WCAG2ICT Guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/896",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 4,
+      "created_at": "2026-04-16T15:35:37Z",
+      "updated_at": "2026-09-29T09:40:17Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 889,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: 1.2.7 Extended Audio Description (Prerecorded) (Level AAA) WCAG2ICT Guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/889",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 4,
+      "created_at": "2026-04-16T12:29:04Z",
+      "updated_at": "2026-09-28T13:51:50Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 927,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: 2.4.12 Focus Not Obscured (Enhanced) (Level AAA) WCAG2ICT Guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/927",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 3,
+      "created_at": "2026-05-20T13:26:50Z",
+      "updated_at": "2026-09-30T08:56:43Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 929,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: 3.3.6 Error Prevention (All) (Level AAA) WCAG2ICT Guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/929",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 3,
+      "created_at": "2026-05-20T13:33:47Z",
+      "updated_at": "2026-09-28T13:15:31Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 1000,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: 3.1.6 Pronunciation (Level AAA) WCAG2ICT Guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/1000",
+      "user": "maryjom",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 3,
+      "created_at": "2026-09-18T14:35:31Z",
+      "updated_at": "2026-09-28T12:46:55Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 951,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: 2.5.5 Target Size (Enhanced) (Level AAA) WCAG2ICT Guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/951",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 3,
+      "created_at": "2026-06-17T08:02:23Z",
+      "updated_at": "2026-09-28T12:25:51Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 915,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: 2.4.8 Location (Level AAA) WCAG2ICT Guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/915",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 3,
+      "created_at": "2026-05-04T13:41:04Z",
+      "updated_at": "2026-09-28T09:01:28Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 976,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Editorial - change \"this/current version\" to specific version & date",
+      "url": "https://github.com/w3c/wcag2ict/issues/976",
+      "user": "pday1",
+      "labels": [
+        "Editorial"
+      ],
+      "comments": 3,
+      "created_at": "2026-07-31T08:37:51Z",
+      "updated_at": "2026-09-24T13:44:33Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 978,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: 2.4.13 Focus Appearance (Level AAA) WCAG2ICT Guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/978",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 3,
+      "created_at": "2026-08-04T07:52:15Z",
+      "updated_at": "2026-09-23T16:46:48Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 943,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: 3.1.4 Abbreviations (Level AAA) WCAG2ICT Guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/943",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 2,
+      "created_at": "2026-06-02T13:37:41Z",
+      "updated_at": "2026-09-28T12:42:55Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 890,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: 1.2.8 Media Alternative (Prerecorded) (Level AAA) WCAG2ICT Guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/890",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 2,
+      "created_at": "2026-04-16T12:39:11Z",
+      "updated_at": "2026-09-28T08:45:38Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 900,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: Document structure change with level AAA in separate section - WCAG2ICT guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/900",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 2,
+      "created_at": "2026-04-16T16:01:52Z",
+      "updated_at": "2026-09-28T08:41:17Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 944,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: 3.1.5 Reading Level (Level AAA) WCAG2ICT Guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/944",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 2,
+      "created_at": "2026-06-02T13:43:00Z",
+      "updated_at": "2026-09-24T13:54:16Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 930,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: 3.3.9 Accessible Authentication (Enhanced) (Level AAA) WCAG2ICT Guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/930",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 1,
+      "created_at": "2026-05-20T13:37:59Z",
+      "updated_at": "2026-09-28T09:09:47Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 910,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: 2.3.2 Three Flashes (Level AAA) WCAG2ICT Guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/910",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 1,
+      "created_at": "2026-04-29T09:18:11Z",
+      "updated_at": "2026-09-28T08:59:30Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 891,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "AG WG Review: 1.2.9 Audio-only (Live) (Level AAA) WCAG2ICT Guidance",
+      "url": "https://github.com/w3c/wcag2ict/issues/891",
+      "user": "pday1",
+      "labels": [
+        "Please Review"
+      ],
+      "comments": 1,
+      "created_at": "2026-04-16T12:46:15Z",
+      "updated_at": "2026-09-28T08:46:30Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/wcag2ict",
+      "number": 1001,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "General editorial comments on the WCAG2ICT draft",
+      "url": "https://github.com/w3c/wcag2ict/issues/1001",
+      "user": "maryjom",
+      "labels": [],
+      "comments": 0,
+      "created_at": "2026-09-18T21:54:19Z",
+      "updated_at": "2026-09-29T12:24:35Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "act-rules/act-rules.github.io",
+      "number": 2454,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "New radiogroup conditions in ARIA in HTML",
+      "url": "https://github.com/act-rules/act-rules.github.io/issues/2454",
+      "user": "giacomo-petri",
+      "labels": [],
+      "comments": 1,
+      "created_at": "2026-09-28T07:09:35Z",
+      "updated_at": "2026-09-29T08:37:14Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "act-rules/act-rules.github.io",
+      "number": 2439,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "[ff89c9]Update the rule and examples to comply with ARIA 1.3",
+      "url": "https://github.com/act-rules/act-rules.github.io/issues/2439",
+      "user": "shunguoy",
+      "labels": [
+        "Rule Update",
+        "WAI-ARIA 1.3"
+      ],
+      "comments": 3,
+      "created_at": "2026-08-06T17:21:53Z",
+      "updated_at": "2026-09-25T15:49:14Z",
+      "body": "",
+      "group": "AGWG / WCAG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 2918,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "Move html-aria into monorepo?",
+      "url": "https://github.com/w3c/aria/issues/2918",
+      "user": "spectranaut",
+      "labels": [
+        "editorial"
+      ],
+      "comments": 3,
+      "created_at": "2026-09-25T23:16:19Z",
+      "updated_at": "2026-09-29T17:30:37Z",
+      "body": "I can't remember the reason, but we must have originally left it out on purpose. Can we move it over to the main repo @scottaohara @patrickhlauke ?",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 2920,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "From WHATWG: a11y concerns around removing the blur event on element removal",
+      "url": "https://github.com/w3c/aria/issues/2920",
+      "user": "davidsgrogan",
+      "labels": [
+        "F2FCandidate"
+      ],
+      "comments": 1,
+      "created_at": "2026-09-29T22:15:05Z",
+      "updated_at": "2026-09-30T08:30:23Z",
+      "body": "@noamr is trying to make Blink stop synchronously firing the `blur` event when an element is removed from the page. In his [Intent to Deprecate thread](https://groups.google.com/a/chromium.org/g/blink-dev/c/L1aI9JZTrBs/m/o-yHCNW4DQAJ), someone was concerned that this would negatively impact focus tracking code that depends on this event. @noamr has been researching this potential impact, but he wo…",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 2916,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "What should \"supported\" be in ACD?",
+      "url": "https://github.com/w3c/aria/issues/2916",
+      "user": "lolaodelola",
+      "labels": [
+        "F2FCandidate"
+      ],
+      "comments": 1,
+      "created_at": "2026-09-24T17:20:36Z",
+      "updated_at": "2026-09-29T14:09:44Z",
+      "body": "Accessibility Compat Data is expanding browser support data by including accessibility support. ACD is using existing testing infra (WPT, ARIA-AT) to inform developers about what is/isn't accessibility supported. We've been working with folks in the Interop Accessibility group, ARIA-AT, Baseline and BCD owners with the goal of integrating accessibility support information into Baseline and BCD. Th…",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 2921,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "From CSSWG: proposal to set ARIA attributes *on pseudo-elements only* via CSS",
+      "url": "https://github.com/w3c/aria/issues/2921",
+      "user": "davidsgrogan",
+      "labels": [
+        "F2FCandidate"
+      ],
+      "comments": 0,
+      "created_at": "2026-09-29T22:32:19Z",
+      "updated_at": "2026-09-29T22:36:35Z",
+      "body": "Right now there is no way for authors to set aria attributes on CSS pseudo-elements. [This proposal](https://github.com/w3c/csswg-drafts/issues/14534) aims to fill that gap. Some combination of @tabatkins, @vmpstr, and I (@davidsgrogan) would like to present this proposal and solicit feedback from ARIAWG at TPAC.",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 2915,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "Introduction to AT Driver",
+      "url": "https://github.com/w3c/aria/issues/2915",
+      "user": "jugglinmike",
+      "labels": [
+        "F2FCandidate"
+      ],
+      "comments": 0,
+      "created_at": "2026-09-24T16:18:51Z",
+      "updated_at": "2026-09-24T16:18:51Z",
+      "body": "[AT Driver](https://w3c.github.io/at-driver) (a specification for automating assistive tech) is going places! [The Sovereign Tech Agency recently funded development](https://www.sovereign.tech/news/meet-the-first-sovereign-tech-standards-cohort), and soon, [we're hoping to move the document from the BTT charter to the ARIA charter](https://github.com/w3c/strategy/issues/558). ARIA folks have the e…",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 2828,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Add explicit language and direction metadata to `AriaNotificationOptions`",
+      "url": "https://github.com/w3c/aria/issues/2828",
+      "user": "xfq",
+      "labels": [
+        "Agenda",
+        "i18n-needs-resolution"
+      ],
+      "comments": 18,
+      "created_at": "2026-06-24T01:19:50Z",
+      "updated_at": "2026-09-28T17:00:44Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 2910,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Should we add constraints to radiogroup children...?",
+      "url": "https://github.com/w3c/aria/issues/2910",
+      "user": "spectranaut",
+      "labels": [
+        "Agenda"
+      ],
+      "comments": 10,
+      "created_at": "2026-09-22T22:49:28Z",
+      "updated_at": "2026-09-26T00:03:18Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 1228,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Add automation to fail build if changes in aria/common",
+      "url": "https://github.com/w3c/aria/issues/1228",
+      "user": "carmacleod",
+      "labels": [
+        "help-wanted"
+      ],
+      "comments": 1,
+      "created_at": "2020-03-30T21:43:16Z",
+      "updated_at": "2026-09-29T11:01:08Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 2837,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "Add intro and context to ARIA Notify",
+      "url": "https://github.com/w3c/aria/issues/2837",
+      "user": "daniel-montalvo",
+      "labels": [
+        "ARIA 1.3"
+      ],
+      "comments": 0,
+      "created_at": "2026-07-03T10:35:57Z",
+      "updated_at": "2026-09-28T17:00:45Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 1721,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Consider a mechanism to associate controls without an explicit grouping",
+      "url": "https://github.com/w3c/aria/issues/1721",
+      "user": "scottaohara",
+      "labels": [],
+      "comments": 14,
+      "created_at": "2022-04-13T15:05:12Z",
+      "updated_at": "2026-09-29T18:01:04Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 2841,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Filtering a listbox with a text field (filterable select)",
+      "url": "https://github.com/w3c/aria/issues/2841",
+      "user": "josepharhar",
+      "labels": [
+        "F2FCandidate"
+      ],
+      "comments": 13,
+      "created_at": "2026-07-08T17:26:56Z",
+      "updated_at": "2026-09-24T19:22:55Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 1288,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Prohibit authors from causing conflict resolutions",
+      "url": "https://github.com/w3c/aria/issues/1288",
+      "user": "WilcoFiers",
+      "labels": [
+        "Agenda",
+        "clarification"
+      ],
+      "comments": 10,
+      "created_at": "2020-06-16T09:27:14Z",
+      "updated_at": "2026-09-30T07:39:14Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 1679,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Consider collapsing Base Concept category into Related Concepts",
+      "url": "https://github.com/w3c/aria/issues/1679",
+      "user": "carmacleod",
+      "labels": [
+        "editorial"
+      ],
+      "comments": 10,
+      "created_at": "2022-01-17T18:59:40Z",
+      "updated_at": "2026-09-29T10:59:32Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 2036,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Interactive Lists",
+      "url": "https://github.com/w3c/aria/issues/2036",
+      "user": "MarioBatusic",
+      "labels": [
+        "F2FCandidate",
+        "feature"
+      ],
+      "comments": 10,
+      "created_at": "2023-09-11T18:47:29Z",
+      "updated_at": "2026-09-24T16:03:00Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 1662,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "associationlist and related roles have tediously long names",
+      "url": "https://github.com/w3c/aria/issues/1662",
+      "user": "cookiecrook",
+      "labels": [
+        "feature"
+      ],
+      "comments": 10,
+      "created_at": "2021-12-16T00:07:06Z",
+      "updated_at": "2026-09-24T07:33:23Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 2896,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Should role=\"option\" be an allowed child of role=\"combobox\"",
+      "url": "https://github.com/w3c/aria/issues/2896",
+      "user": "jnurthen",
+      "labels": [
+        "Agenda"
+      ],
+      "comments": 4,
+      "created_at": "2026-09-09T17:12:24Z",
+      "updated_at": "2026-09-30T03:15:55Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria",
+      "number": 2911,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "[CI] check spelling",
+      "url": "https://github.com/w3c/aria/issues/2911",
+      "user": "pkra",
+      "labels": [
+        "editorial"
+      ],
+      "comments": 1,
+      "created_at": "2026-09-23T07:03:34Z",
+      "updated_at": "2026-09-27T21:17:40Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria-practices",
+      "number": 3471,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "My",
+      "url": "https://github.com/w3c/aria-practices/issues/3471",
+      "user": "Bayashka1234",
+      "labels": [],
+      "comments": 1,
+      "created_at": "2026-09-29T07:22:17Z",
+      "updated_at": "2026-09-30T05:47:35Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/aria-practices",
+      "number": 3458,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Netlify prerendering now deprecated, why do we need it?",
+      "url": "https://github.com/w3c/aria-practices/issues/3458",
+      "user": "daniel-montalvo",
+      "labels": [
+        "Infrastructure"
+      ],
+      "comments": 5,
+      "created_at": "2026-07-27T14:51:20Z",
+      "updated_at": "2026-09-30T05:55:19Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/accname",
+      "number": 253,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "css generated content alternative text",
+      "url": "https://github.com/w3c/accname/issues/253",
+      "user": "pkra",
+      "labels": [
+        "clarification"
+      ],
+      "comments": 1,
+      "created_at": "2026-04-23T17:46:36Z",
+      "updated_at": "2026-09-24T07:17:13Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/html-aam",
+      "number": 612,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "Specify children of input date?",
+      "url": "https://github.com/w3c/html-aam/issues/612",
+      "user": "spectranaut",
+      "labels": [],
+      "comments": 1,
+      "created_at": "2026-09-23T20:51:13Z",
+      "updated_at": "2026-09-24T16:20:37Z",
+      "body": "The browsers return a bunch of spinbuttons -- should we specify this somewhere? Maybe even just as a comment in https://w3c.github.io/aria/html-aam/#el-input-datetime-local ? Specifically, I am wondering because I would be nice to record this fact I just learned -- which is that if you don't want VoiceOver to try to read a percentage for an AXIncrementor (which is the \"spin buttons\" for date, or m…",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/html-aam",
+      "number": 598,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "posinset/setsize for radiogroups",
+      "url": "https://github.com/w3c/html-aam/issues/598",
+      "user": "slender789",
+      "labels": [
+        "Agenda"
+      ],
+      "comments": 13,
+      "created_at": "2026-02-12T21:43:56Z",
+      "updated_at": "2026-09-29T19:55:01Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/html-aam",
+      "number": 611,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Consider specifying AXTitleUIElement as exposed in more cases",
+      "url": "https://github.com/w3c/html-aam/issues/611",
+      "user": "twilco",
+      "labels": [],
+      "comments": 1,
+      "created_at": "2026-09-12T16:40:12Z",
+      "updated_at": "2026-09-26T00:25:15Z",
+      "body": "",
+      "group": "ARIA WG"
+    },
+    {
+      "repo": "w3c/a11y-request",
+      "number": 187,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "[wg/dp] Digital Policy Group Charter",
+      "url": "https://github.com/w3c/a11y-request/issues/187",
+      "user": "w3cbot",
+      "labels": [
+        "charter"
+      ],
+      "comments": 0,
+      "created_at": "2026-09-29T14:19:58Z",
+      "updated_at": "2026-09-29T14:19:58Z",
+      "body": "This issue was created because the 'horizontal review requested' label was added to § https://github.com/w3c/strategy/issues/575 This review is requested prior to the [Advisory Committee Review](https://www.w3.org/guide/process/charter.html#ac-review). New charter proposal, reviewers please take note. This charter draft emerged from the [ODRL Workshop](https://www.w3.org/2026/ODRLWS/) that took pl…",
+      "group": "APA / 水平レビュー"
+    },
+    {
+      "repo": "w3c/a11y-request",
+      "number": 186,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "[wg/rml] RML Working Group",
+      "url": "https://github.com/w3c/a11y-request/issues/186",
+      "user": "w3cbot",
+      "labels": [
+        "charter"
+      ],
+      "comments": 0,
+      "created_at": "2026-09-24T10:38:07Z",
+      "updated_at": "2026-09-24T10:38:07Z",
+      "body": "This issue was created because the 'horizontal review requested' label was added to § https://github.com/w3c/strategy/issues/443 This review is requested prior to the [Advisory Committee Review](https://www.w3.org/guide/process/charter.html#ac-review). New charter proposal, reviewers please take note. # Charter Review [Charter](https://kg-construct.github.io/rml-wg-charter/) [diff from charter tem…",
+      "group": "APA / 水平レビュー"
+    },
+    {
+      "repo": "w3c/a11y-request",
+      "number": 185,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "[wg/audio] [Audio] Group Charter",
+      "url": "https://github.com/w3c/a11y-request/issues/185",
+      "user": "w3cbot",
+      "labels": [
+        "charter"
+      ],
+      "comments": 0,
+      "created_at": "2026-09-23T13:52:33Z",
+      "updated_at": "2026-09-23T13:52:33Z",
+      "body": "This issue was created because the 'horizontal review requested' label was added to § https://github.com/w3c/strategy/issues/570 This review is requested prior to the [Advisory Committee Review](https://www.w3.org/guide/process/charter.html#ac-review). New charter proposal, reviewers please take note. # Charter Review [Charter](https://w3c.github.io/charter-drafts/2026/audio-wg.html) [diff from ch…",
+      "group": "APA / 水平レビュー"
+    },
+    {
+      "repo": "w3c/a11y-request",
+      "number": 182,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "[wg/pm] Publishing Maintenance Working Group Charter",
+      "url": "https://github.com/w3c/a11y-request/issues/182",
+      "user": "w3cbot",
+      "labels": [
+        "charter"
+      ],
+      "comments": 1,
+      "created_at": "2026-09-17T14:33:27Z",
+      "updated_at": "2026-09-28T16:13:14Z",
+      "body": "",
+      "group": "APA / 水平レビュー"
+    },
+    {
+      "repo": "w3c/a11y-request",
+      "number": 183,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "[wg/ARIA] [Accessible Rich Internet Applications] Group Charter",
+      "url": "https://github.com/w3c/a11y-request/issues/183",
+      "user": "w3cbot",
+      "labels": [
+        "charter"
+      ],
+      "comments": 1,
+      "created_at": "2026-09-22T08:54:14Z",
+      "updated_at": "2026-09-28T16:12:47Z",
+      "body": "",
+      "group": "APA / 水平レビュー"
+    },
+    {
+      "repo": "w3c/a11y-request",
+      "number": 184,
+      "kind": "Issue",
+      "event": "closed",
+      "title": "[wg/privacy] Privacy Working Group Charter",
+      "url": "https://github.com/w3c/a11y-request/issues/184",
+      "user": "w3cbot",
+      "labels": [
+        "charter"
+      ],
+      "comments": 1,
+      "created_at": "2026-09-22T18:58:07Z",
+      "updated_at": "2026-09-28T16:12:33Z",
+      "body": "",
+      "group": "APA / 水平レビュー"
+    },
+    {
+      "repo": "w3c/csswg-drafts",
+      "number": 14477,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "[css-fonts][mediaqueries-5] Add prefers-bold-text user preference media feature",
+      "url": "https://github.com/w3c/csswg-drafts/issues/14477",
+      "user": "gregoryd",
+      "labels": [
+        "mediaqueries-5",
+        "a11y-tracker",
+        "css-fonts-5"
+      ],
+      "comments": 10,
+      "created_at": "2026-09-11T00:46:05Z",
+      "updated_at": "2026-09-28T19:30:26Z",
+      "body": "",
+      "group": "APA / 水平レビュー"
+    },
+    {
+      "repo": "w3c/csswg-drafts",
+      "number": 14316,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "[css-forms-1] Use empty alt text for ::picker-icon and ::checkmark",
+      "url": "https://github.com/w3c/csswg-drafts/issues/14316",
+      "user": "fantasai",
+      "labels": [
+        "css-forms-1",
+        "Needs Edits",
+        "a11y-tracker",
+        "Needs Testcase (WPT)"
+      ],
+      "comments": 7,
+      "created_at": "2026-08-12T19:53:36Z",
+      "updated_at": "2026-09-29T21:53:24Z",
+      "body": "",
+      "group": "APA / 水平レビュー"
+    },
+    {
+      "repo": "w3c/csswg-drafts",
+      "number": 14318,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "[css-forms-1] Handle prefers-contrast and forced-colors by default",
+      "url": "https://github.com/w3c/csswg-drafts/issues/14318",
+      "user": "fantasai",
+      "labels": [
+        "css-forms-1",
+        "a11y-tracker"
+      ],
+      "comments": 5,
+      "created_at": "2026-08-12T22:20:51Z",
+      "updated_at": "2026-09-30T04:21:18Z",
+      "body": "",
+      "group": "APA / 水平レビュー"
+    },
+    {
+      "repo": "whatwg/html",
+      "number": 12985,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "Should setting designMode = \"on\" clear the focused element even if it's in a shadow root?",
+      "url": "https://github.com/whatwg/html/issues/12985",
+      "user": "ltenmoz",
+      "labels": [
+        "topic: shadow"
+      ],
+      "comments": 0,
+      "created_at": "2026-09-23T16:58:36Z",
+      "updated_at": "2026-09-30T07:54:18Z",
+      "body": "### What is the issue with the HTML Standard? The designMode setter currently says: >2. If value is \"on\" and [this](https://webidl.spec.whatwg.org/#this)'s [design mode enabled](https://html.spec.whatwg.org/#design-mode-enabled) is false: > … > 3. Run the [focusing steps](https://html.spec.whatwg.org/#focusing-steps) for [this](https://webidl.spec.whatwg.org/#this)'s [document element](https://dom…",
+      "group": "WHATWG"
+    },
+    {
+      "repo": "whatwg/html",
+      "number": 10905,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Popovers are broken when shown in a `contextmenu` event listener",
+      "url": "https://github.com/whatwg/html/issues/10905",
+      "user": "jpzwarte",
+      "labels": [
+        "topic: popover"
+      ],
+      "comments": 22,
+      "created_at": "2025-01-09T11:59:31Z",
+      "updated_at": "2026-09-23T20:25:49Z",
+      "body": "",
+      "group": "WHATWG"
+    },
+    {
+      "repo": "web-platform-tests/interop-accessibility",
+      "number": 246,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Meeting: October 7, 2026, @ 9 AM PST",
+      "url": "https://github.com/web-platform-tests/interop-accessibility/issues/246",
+      "user": "zcorpan",
+      "labels": [
+        "Agenda+"
+      ],
+      "comments": 1,
+      "created_at": "2026-09-02T16:22:05Z",
+      "updated_at": "2026-09-23T13:46:42Z",
+      "body": "",
+      "group": "ブラウザ / AT"
+    },
+    {
+      "repo": "web-platform-tests/interop",
+      "number": 1489,
+      "kind": "Issue",
+      "event": "opened",
+      "title": "Carryover evaluation for the Accessibility testing investigation area",
+      "url": "https://github.com/web-platform-tests/interop/issues/1489",
+      "user": "nairnandu",
+      "labels": [
+        "carryover-evaluation"
+      ],
+      "comments": 0,
+      "created_at": "2026-09-25T02:15:07Z",
+      "updated_at": "2026-09-25T02:15:07Z",
+      "body": "Carryover evaluation for the [Accessibility testing investigation](https://github.com/web-platform-tests/interop-accessibility)",
+      "group": "ブラウザ / AT"
+    },
+    {
+      "repo": "web-platform-tests/interop",
+      "number": 1333,
+      "kind": "Issue",
+      "event": "updated",
+      "title": "Reference Target for Cross-Root ARIA",
+      "url": "https://github.com/web-platform-tests/interop/issues/1333",
+      "user": "davatron5000",
+      "labels": [
+        "focus-area-proposal"
+      ],
+      "comments": 2,
+      "created_at": "2026-09-03T16:41:32Z",
+      "updated_at": "2026-09-24T14:08:33Z",
+      "body": "",
+      "group": "ブラウザ / AT"
+    }
+  ],
+  "minutes": [
+    {
+      "group": "APA WG",
+      "date": "2026-09-23",
+      "url": "https://www.w3.org/2026/09/23-apa-minutes.html"
+    },
+    {
+      "group": "ARIA-AT CG",
+      "date": "2026-09-23",
+      "url": "https://www.w3.org/2026/09/23-aria-at-minutes.html"
+    },
+    {
+      "group": "ARIA WG",
+      "date": "2026-09-24",
+      "url": "https://www.w3.org/2026/09/24-aria-minutes.html"
+    },
+    {
+      "group": "AGWG",
+      "date": "2026-09-29",
+      "url": "https://www.w3.org/2026/09/29-ag-minutes.html"
+    }
+  ],
+  "feeds": [],
+  "releases": [
+    {
+      "repo": "nvaccess/nvda",
+      "tag": "release-2026.3beta3",
+      "name": "2026.3beta3",
+      "url": "https://github.com/nvaccess/nvda/releases/tag/release-2026.3beta3",
+      "published_at": "2026-09-30T05:29:06Z",
+      "prerelease": true,
+      "body": "* Highlights can be found in the [release blog post](https://www.nvaccess.org/post/nvda-2026-3beta3/). * [VirusTotal scan results](https://www.virustotal.com/gui/file-analysis/YTZjYWVhOTc2NGJkMjI3OTQxOTIxNTY4OTBhM2MzZmI6MTc5MDc0NjE0Mg==/detection) * SHA256 sum: `ca17ceb9cd3a8ed7b9732d2a6856c2c3979fbfd86fde1dad91a8a7170dcec612`"
+    }
+  ],
+  "discovered": [
+    {
+      "repo": "AndyShiu/claude-skill-playwright-browser",
+      "url": "https://github.com/AndyShiu/claude-skill-playwright-browser",
+      "stars": 49,
+      "description": "Claude Code skill: a background Playwright browser for screenshots (desktop/tablet/mobile), frontend health checks, visual diffs, scripted UI flows and logged-in pages — in any project. ｜ 讓 Claude Cod…",
+      "topics": [
+        "accessibility",
+        "browser-automation",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "e2e-testing",
+        "frontend",
+        "playwright",
+        "screenshot",
+        "visual-regression",
+        "web-vitals"
+      ],
+      "language": "JavaScript",
+      "created_at": "2026-09-24T17:54:42Z",
+      "pushed_at": "2026-09-26T12:23:33Z"
+    },
+    {
+      "repo": "paritalamounika07-design/meeting-preparation-agent",
+      "url": "https://github.com/paritalamounika07-design/meeting-preparation-agent",
+      "stars": 45,
+      "description": "Our project is a technology-based solution designed to address a real-world problem in a simple and efficient way. It focuses on understanding user needs, improving accessibility, and providing a prac…",
+      "topics": [],
+      "language": "Python",
+      "created_at": "2026-09-28T11:51:41Z",
+      "pushed_at": "2026-09-29T07:24:38Z"
+    },
+    {
+      "repo": "mshekinasamuel763-droid/healthcare-chatbot",
+      "url": "https://github.com/mshekinasamuel763-droid/healthcare-chatbot",
+      "stars": 33,
+      "description": "Healthcare Chatbot is a Flask-based AI application that provides instant health-related assistance through an interactive chat interface. It helps users understand symptoms, receive basic health guida…",
+      "topics": [],
+      "language": null,
+      "created_at": "2026-09-27T09:27:36Z",
+      "pushed_at": "2026-09-27T09:38:08Z"
+    },
+    {
+      "repo": "ateymoori/oh-my-android",
+      "url": "https://github.com/ateymoori/oh-my-android",
+      "stars": 32,
+      "description": "Android emulator & ADB GUI for Mac: dark mode, font size, RTL, TalkBack, network, GPS, Layout Inspector in dp. Built-in MCP server lets Claude Code, Codex and Cursor drive the emulator.",
+      "topics": [
+        "accessibility",
+        "adb",
+        "adb-gui",
+        "ai-agents",
+        "ai-coding",
+        "android",
+        "android-emulator",
+        "android-studio",
+        "claude-code",
+        "developer-tools",
+        "layout-inspector",
+        "mac",
+        "macos",
+        "macos-app",
+        "mcp",
+        "mcp-server",
+        "mobile-testing",
+        "model-context-protocol",
+        "swiftui",
+        "talkback"
+      ],
+      "language": "Swift",
+      "created_at": "2026-09-24T08:31:01Z",
+      "pushed_at": "2026-09-30T11:39:38Z"
+    },
+    {
+      "repo": "Nisaka520/JevGuide",
+      "url": "https://github.com/Nisaka520/JevGuide",
+      "stars": 29,
+      "description": "弦外之音 —— 微信聊天里的关系进展助手：读屏（无障碍树 / 截屏视觉）→ Jev 判读 + 攻略度 → 聊天模型出 3 条候选回复，攻略度常驻挂在屏幕上。不改微信、不发消息、不注入点击。",
+      "topics": [
+        "accessibility",
+        "android",
+        "kotlin",
+        "llm",
+        "material3",
+        "wechat"
+      ],
+      "language": "Kotlin",
+      "created_at": "2026-09-23T15:29:42Z",
+      "pushed_at": "2026-09-24T07:32:34Z"
+    },
+    {
+      "repo": "kasturibuilds/generativecharts",
+      "url": "https://github.com/kasturibuilds/generativecharts",
+      "stars": 21,
+      "description": "Accessible React charts with expressive themes, a live gallery, and documentation.",
+      "topics": [
+        "accessibility",
+        "charts",
+        "data-visualization",
+        "react",
+        "svg",
+        "typescript"
+      ],
+      "language": "TypeScript",
+      "created_at": "2026-09-23T01:50:17Z",
+      "pushed_at": "2026-09-28T22:45:51Z"
+    },
+    {
+      "repo": "dartcv/ENCE",
+      "url": "https://github.com/dartcv/ENCE",
+      "stars": 17,
+      "description": "Android app for enhancing accessibility permissions",
+      "topics": [],
+      "language": null,
+      "created_at": "2026-09-26T20:06:26Z",
+      "pushed_at": "2026-09-28T10:39:23Z"
+    },
+    {
+      "repo": "mirayavandiepen/bricka",
+      "url": "https://github.com/mirayavandiepen/bricka",
+      "stars": 16,
+      "description": "🧱 A composable input for AI apps in React.",
+      "topics": [
+        "accessibility",
+        "ai",
+        "autocomplete",
+        "chat",
+        "composer",
+        "contenteditable",
+        "design-engineering",
+        "input",
+        "mentions",
+        "prompt",
+        "react",
+        "react-components",
+        "slash-commands",
+        "typescript",
+        "ui"
+      ],
+      "language": "TypeScript",
+      "created_at": "2026-09-28T02:17:09Z",
+      "pushed_at": "2026-09-28T16:59:48Z"
+    },
+    {
+      "repo": "mshekinasamuel763-droid/healthcare_chatbot",
+      "url": "https://github.com/mshekinasamuel763-droid/healthcare_chatbot",
+      "stars": 15,
+      "description": "Healthcare Chatbot is a Flask-based AI application that provides instant health-related assistance through an interactive chat interface. It helps users understand symptoms, receive basic health guida…",
+      "topics": [],
+      "language": null,
+      "created_at": "2026-09-27T09:25:41Z",
+      "pushed_at": "2026-09-27T09:25:42Z"
+    },
+    {
+      "repo": "yakew7/DesignHub",
+      "url": "https://github.com/yakew7/DesignHub",
+      "stars": 14,
+      "description": "Open-source, local-first design & brand toolkit. Build a brand once, then get logo variants, mockups, social assets, a brand book PDF and design tokens. Plus fonts, colors, icons, SVG & accessibility …",
+      "topics": [
+        "accessibility",
+        "brand-identity",
+        "branding",
+        "color-palette",
+        "design-system",
+        "design-tokens",
+        "design-tools",
+        "google-fonts",
+        "hacktoberfest",
+        "icons",
+        "local-first",
+        "mockup-generator",
+        "nextjs",
+        "open-graph",
+        "open-source",
+        "svg",
+        "tailwindcss",
+        "typescript",
+        "typography",
+        "wcag"
+      ],
+      "language": "TypeScript",
+      "created_at": "2026-09-23T03:30:50Z",
+      "pushed_at": "2026-09-30T08:59:21Z"
+    },
+    {
+      "repo": "zeeetech/farol",
+      "url": "https://github.com/zeeetech/farol",
+      "stars": 11,
+      "description": "Accessibility testing for Phoenix LiveView, in pure Elixir.",
+      "topics": [],
+      "language": "Elixir",
+      "created_at": "2026-09-23T11:35:32Z",
+      "pushed_at": "2026-09-23T13:33:29Z"
+    },
+    {
+      "repo": "Alpha-Park/genpark-browser-dom-accessibility-tree-pruner-skill",
+      "url": "https://github.com/Alpha-Park/genpark-browser-dom-accessibility-tree-pruner-skill",
+      "stars": 7,
+      "description": "Browser DOM accessibility tree pruner filtering non-interactive noise and generating dense actionable trees for web agents",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "computer-use",
+        "gui-automation",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "python",
+        "spatial-grounding",
+        "vision-agent",
+        "zero-dependency"
+      ],
+      "language": "Python",
+      "created_at": "2026-09-26T13:26:37Z",
+      "pushed_at": "2026-09-26T13:27:00Z"
+    },
+    {
+      "repo": "alphaparkinc/genpark-browser-dom-accessibility-tree-pruner-skill",
+      "url": "https://github.com/alphaparkinc/genpark-browser-dom-accessibility-tree-pruner-skill",
+      "stars": 7,
+      "description": "Browser DOM accessibility tree pruner filtering non-interactive noise and generating dense actionable trees for web agents",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "computer-use",
+        "gui-automation",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "python",
+        "spatial-grounding",
+        "vision-agent",
+        "zero-dependency"
+      ],
+      "language": "Python",
+      "created_at": "2026-09-26T13:25:59Z",
+      "pushed_at": "2026-09-26T13:26:22Z"
+    },
+    {
+      "repo": "alphaparkinc/genpark-html-dom-semantic-tree-pruner-skill",
+      "url": "https://github.com/alphaparkinc/genpark-html-dom-semantic-tree-pruner-skill",
+      "stars": 7,
+      "description": "Zero-dependency HTML DOM semantic tree pruner compressing web markup into accessibility-friendly clean trees with 80%+ token reduction.",
+      "topics": [
+        "ai-agent",
+        "crawler-trap",
+        "dom-parser",
+        "form-automation",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "table-parser",
+        "trajectory-eval",
+        "web-browsing",
+        "zero-dependency"
+      ],
+      "language": "Python",
+      "created_at": "2026-09-28T03:06:48Z",
+      "pushed_at": "2026-09-28T03:07:10Z"
+    },
+    {
+      "repo": "Alpha-Park/genpark-html-dom-semantic-tree-pruner-skill",
+      "url": "https://github.com/Alpha-Park/genpark-html-dom-semantic-tree-pruner-skill",
+      "stars": 7,
+      "description": "Zero-dependency HTML DOM semantic tree pruner compressing web markup into accessibility-friendly clean trees with 80%+ token reduction.",
+      "topics": [
+        "ai-agent",
+        "crawler-trap",
+        "dom-parser",
+        "form-automation",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "table-parser",
+        "trajectory-eval",
+        "web-browsing",
+        "zero-dependency"
+      ],
+      "language": "Python",
+      "created_at": "2026-09-28T03:07:20Z",
+      "pushed_at": "2026-09-28T03:07:41Z"
+    },
+    {
+      "repo": "sricharanreddy2/doorlyn",
+      "url": "https://github.com/sricharanreddy2/doorlyn",
+      "stars": 7,
+      "description": "Doorlyn is an AI-powered unified service platform designed to make everyday services simple, accessible, and convenient. Instead of using multiple apps for different needs, users can discover, book, m…",
+      "topics": [],
+      "language": "JavaScript",
+      "created_at": "2026-09-25T17:28:46Z",
+      "pushed_at": "2026-09-29T13:08:05Z"
+    },
+    {
+      "repo": "bsmagalhaes/rendra-ui-web",
+      "url": "https://github.com/bsmagalhaes/rendra-ui-web",
+      "stars": 6,
+      "description": "Template de sistema e layout de sistema administrativo em React, gratuito: design system e boilerplate com dashboard, tabelas, formulários, CRM kanban, agenda, chat omnichannel e mais de 50 componente…",
+      "topics": [
+        "accessibility",
+        "admin-dashboard",
+        "admin-template",
+        "boilerplate",
+        "crm",
+        "dashboard",
+        "design-system",
+        "kanban",
+        "mobile-first",
+        "pt-br",
+        "radix-ui",
+        "react",
+        "react-template",
+        "shadcn-ui",
+        "storybook",
+        "tailwindcss",
+        "template",
+        "typescript",
+        "vite",
+        "white-label"
+      ],
+      "language": "TypeScript",
+      "created_at": "2026-09-24T01:00:53Z",
+      "pushed_at": "2026-09-30T05:27:39Z"
+    },
+    {
+      "repo": "Zhangweihui666/silver-tourism-digital-twin",
+      "url": "https://github.com/Zhangweihui666/silver-tourism-digital-twin",
+      "stars": 6,
+      "description": "Semantic digital twin and 500-agent simulation laboratory for age-friendly research in historic districts.",
+      "topics": [
+        "accessibility",
+        "age-friendly",
+        "agent-based-simulation",
+        "digital-twin",
+        "gaussian-splatting",
+        "historic-district",
+        "openstreetmap",
+        "threejs",
+        "tourism-research"
+      ],
+      "language": "JavaScript",
+      "created_at": "2026-09-29T07:30:42Z",
+      "pushed_at": "2026-09-29T07:46:48Z"
+    },
+    {
+      "repo": "iqdz/ZBox",
+      "url": "https://github.com/iqdz/ZBox",
+      "stars": 6,
+      "description": "Portable, fast, accessible email client app for Windows, Built with wxPython on the Himalaya CLI. IMAP and SMTP, Gmail via app password, tracker blocking, 15 interface languages, and more",
+      "topics": [],
+      "language": "Python",
+      "created_at": "2026-09-25T12:46:01Z",
+      "pushed_at": "2026-09-30T02:32:02Z"
+    },
+    {
+      "repo": "vinodgp509-ai/Jobs-placement-management-system-",
+      "url": "https://github.com/vinodgp509-ai/Jobs-placement-management-system-",
+      "stars": 6,
+      "description": "A Python-based system designed to manage job opportunities and student placement details efficiently. It helps students view job openings, eligibility, applications, and placement information in one p…",
+      "topics": [],
+      "language": "TypeScript",
+      "created_at": "2026-09-26T05:28:34Z",
+      "pushed_at": "2026-09-26T05:29:41Z"
+    },
+    {
+      "repo": "masonasons/MaccessHub",
+      "url": "https://github.com/masonasons/MaccessHub",
+      "stars": 5,
+      "description": "Menu bar accessibility toolkit for macOS: event sounds, key clicks, audio device switching and spoken system info, with soundpacks. VoiceOver-first.",
+      "topics": [],
+      "language": "Swift",
+      "created_at": "2026-09-27T00:30:51Z",
+      "pushed_at": "2026-09-28T05:31:08Z"
+    },
+    {
+      "repo": "OnjLouis/ElevenLabsMusicGenerator",
+      "url": "https://github.com/OnjLouis/ElevenLabsMusicGenerator",
+      "stars": 5,
+      "description": "Accessible native Windows and macOS app for ElevenLabs music and sound effects",
+      "topics": [],
+      "language": "C#",
+      "created_at": "2026-09-23T09:19:10Z",
+      "pushed_at": "2026-09-27T10:33:57Z"
+    },
+    {
+      "repo": "joshknnd1982/OpenEvv-sapi5",
+      "url": "https://github.com/joshknnd1982/OpenEvv-sapi5",
+      "stars": 5,
+      "description": "The OpenEVV engine (IBM Embedded ViaVoice / Eloquence rebuilt as C) as 32-bit and 64-bit SAPI 5 voices: 155 languages (10 native, 145 through eSpeak NG, each with its own sounds, melody and tones), 1,…",
+      "topics": [],
+      "language": "C",
+      "created_at": "2026-09-28T20:52:16Z",
+      "pushed_at": "2026-09-30T12:08:26Z"
+    },
+    {
+      "repo": "VBS2004/jev-windows-agent",
+      "url": "https://github.com/VBS2004/jev-windows-agent",
+      "stars": 4,
+      "description": "Windows UI Automation extension of arc-cua: a fast, JEV-powered decision loop for desktop computer-use agents",
+      "topics": [
+        "accessibility",
+        "agentic-ai",
+        "ai-agents",
+        "automation",
+        "computer-use-agent",
+        "desktop-automation",
+        "llm-agent",
+        "llm-tools",
+        "openrouter",
+        "python",
+        "rpa",
+        "ui-automation",
+        "windows",
+        "windows-automation"
+      ],
+      "language": "Python",
+      "created_at": "2026-09-26T09:05:42Z",
+      "pushed_at": "2026-09-27T10:35:47Z"
+    },
+    {
+      "repo": "eyal-weiss/wonderlattice",
+      "url": "https://github.com/eyal-weiss/wonderlattice",
+      "stars": 4,
+      "description": "Small, hands-on experiments with big mathematical ideas. Pick one and play.",
+      "topics": [
+        "accessibility",
+        "canvas",
+        "education",
+        "explorable-explanations",
+        "i18n",
+        "interactive",
+        "javascript",
+        "math",
+        "mathematics",
+        "playground",
+        "static-site",
+        "visualization"
+      ],
+      "language": "JavaScript",
+      "created_at": "2026-09-25T03:53:48Z",
+      "pushed_at": "2026-09-30T05:13:20Z"
+    },
+    {
+      "repo": "10vr/driftflow",
+      "url": "https://github.com/10vr/driftflow",
+      "stars": 4,
+      "description": "Open-source, on-device dictation for macOS and Windows. Hold a key, speak, and your words appear wherever you type.",
+      "topics": [
+        "accessibility",
+        "asr",
+        "dictation",
+        "macos",
+        "offline",
+        "on-device",
+        "parakeet",
+        "privacy",
+        "productivity",
+        "rust",
+        "speech-recognition",
+        "speech-to-text",
+        "swift",
+        "swiftui",
+        "tauri",
+        "transcription",
+        "voice-to-text",
+        "voice-typing",
+        "windows"
+      ],
+      "language": "Rust",
+      "created_at": "2026-09-27T07:04:16Z",
+      "pushed_at": "2026-09-30T13:17:57Z"
+    },
+    {
+      "repo": "mekanikal-ch/yoclicky",
+      "url": "https://github.com/mekanikal-ch/yoclicky",
+      "stars": 4,
+      "description": "AI buddy next to your cursor on macOS, running on your own Claude subscription",
+      "topics": [
+        "accessibility",
+        "ai-assistant",
+        "claude",
+        "claude-code",
+        "macos",
+        "menu-bar-app",
+        "open-source",
+        "swiftui",
+        "voice-assistant"
+      ],
+      "language": "Swift",
+      "created_at": "2026-09-23T21:47:40Z",
+      "pushed_at": "2026-09-24T12:38:34Z"
+    },
+    {
+      "repo": "mohamedlalah/SecretoTVShortcuts",
+      "url": "https://github.com/mohamedlalah/SecretoTVShortcuts",
+      "stars": 4,
+      "description": "Secreto TV Shortcuts — quick access to essential Android TV & Google TV system settings, including Wi-Fi, apps, accessibility, developer options and more.",
+      "topics": [
+        "android",
+        "android-tv",
+        "android-tv-apps",
+        "google-tv",
+        "jetpack-compose",
+        "kotlin",
+        "secreto-tools",
+        "shortcuts",
+        "system-settings",
+        "tv-app"
+      ],
+      "language": "Kotlin",
+      "created_at": "2026-09-25T00:23:27Z",
+      "pushed_at": "2026-09-30T00:20:05Z"
+    },
+    {
+      "repo": "rsamwilson2323-cloud/orbit_workspace",
+      "url": "https://github.com/rsamwilson2323-cloud/orbit_workspace",
+      "stars": 4,
+      "description": "🌌 ORBIT is a modern, browser-based personal workspace built with HTML, CSS, and JavaScript. It brings useful mini-apps like Notes, Tasks, Calculator, and Explore into one sleek desktop-style interface…",
+      "topics": [],
+      "language": "HTML",
+      "created_at": "2026-09-28T06:54:58Z",
+      "pushed_at": "2026-09-28T06:57:10Z"
+    },
+    {
+      "repo": "MaxMuyalwa/colorsbymax",
+      "url": "https://github.com/MaxMuyalwa/colorsbymax",
+      "stars": 4,
+      "description": "A live theme switcher for any website: site themes, 700+ palettes, for light/dark modes and WCAG contrast checks.",
+      "topics": [
+        "color",
+        "color-palette",
+        "color-picker",
+        "color-scheme",
+        "color-theme",
+        "colorpicker",
+        "colors"
+      ],
+      "language": "JavaScript",
+      "created_at": "2026-09-24T19:48:44Z",
+      "pushed_at": "2026-09-27T11:27:06Z"
+    },
+    {
+      "repo": "mad-gamer26/AudioNet",
+      "url": "https://github.com/mad-gamer26/AudioNet",
+      "stars": 3,
+      "description": "Low-latency, encrypted network audio between computers, phones and browsers, fully usable with a screen reader. Rust engine, self-hostable server, Windows, Mac, iPhone and web apps.",
+      "topics": [
+        "accessibility",
+        "audio",
+        "low-latency",
+        "opus",
+        "rust",
+        "screen-reader",
+        "self-hosted",
+        "streaming",
+        "swiftui",
+        "webrtc"
+      ],
+      "language": "Rust",
+      "created_at": "2026-09-28T02:16:15Z",
+      "pushed_at": "2026-09-30T04:51:08Z"
+    },
+    {
+      "repo": "Iron-Mark/Hackathon-LinawAI-AppCon_2026",
+      "url": "https://github.com/Iron-Mark/Hackathon-LinawAI-AppCon_2026",
+      "stars": 3,
+      "description": "Clarify the format. Preserve the meaning. Adaptive Information Communication System: one notice, rewritten into the format each reader absorbs, then cross-examined. Gemini generation, Meaning Maps, fa…",
+      "topics": [
+        "accessibility",
+        "appcon",
+        "appcon-2026",
+        "chrome-extension",
+        "gemini",
+        "hackathon",
+        "natural-language-processing",
+        "nextjs",
+        "react",
+        "taglish",
+        "text-to-speech",
+        "typescript"
+      ],
+      "language": "TypeScript",
+      "created_at": "2026-09-23T08:21:36Z",
+      "pushed_at": "2026-09-29T16:02:19Z"
+    },
+    {
+      "repo": "swipewalk/swipewalk",
+      "url": "https://github.com/swipewalk/swipewalk",
+      "stars": 3,
+      "description": "Accessibility scanner for running Android and iOS apps, with .NET MAUI support: wraps Apple's and Google's audits, captures TalkBack output, maps findings to WCAG 2.2, points to likely source lines, e…",
+      "topics": [
+        "a11y",
+        "accessibility",
+        "accessibility-testing",
+        "android",
+        "dotnet-maui",
+        "dotnet-tool",
+        "ios",
+        "screen-reader",
+        "talkback",
+        "wcag"
+      ],
+      "language": "C#",
+      "created_at": "2026-09-24T06:06:41Z",
+      "pushed_at": "2026-09-30T05:38:13Z"
+    },
+    {
+      "repo": "vishal-mandhane/divinity",
+      "url": "https://github.com/vishal-mandhane/divinity",
+      "stars": 3,
+      "description": "Claude Code skills for app builders: security audit, product review, UI/UX and accessibility review, store screenshots, and Lottie animation ideas. Every finding cites a file and line.",
+      "topics": [
+        "accessibility",
+        "app-store",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "firebase",
+        "flutter",
+        "lottie",
+        "product-management",
+        "security-audit",
+        "ux-review"
+      ],
+      "language": null,
+      "created_at": "2026-09-25T08:02:52Z",
+      "pushed_at": "2026-09-25T08:16:30Z"
+    },
+    {
+      "repo": "Ayushmaniar/jev-voice-computer-use",
+      "url": "https://github.com/Ayushmaniar/jev-voice-computer-use",
+      "stars": 3,
+      "description": "Jev voice-controlled computer use: hold a key, speak, and Jev operates your apps. Windows today; macOS, Linux and Android ports welcome.",
+      "topics": [
+        "accessibility",
+        "computer-use",
+        "hands-free",
+        "jev",
+        "speech-to-text",
+        "ui-automation",
+        "voice-control",
+        "windows"
+      ],
+      "language": "Python",
+      "created_at": "2026-09-23T17:06:52Z",
+      "pushed_at": "2026-09-26T20:32:34Z"
+    },
+    {
+      "repo": "angamer234k/cwbridge-androidfork",
+      "url": "https://github.com/angamer234k/cwbridge-androidfork",
+      "stars": 3,
+      "description": "CWBridge Android companion — local Roblox/CatWeb services with Accessibility tap and logcat",
+      "topics": [],
+      "language": "Kotlin",
+      "created_at": "2026-09-24T17:57:27Z",
+      "pushed_at": "2026-09-30T09:50:06Z"
+    },
+    {
+      "repo": "devinprater/VocalWriterMobile",
+      "url": "https://github.com/devinprater/VocalWriterMobile",
+      "stars": 3,
+      "description": "Accessible experimental iPhone editor for the preserved VocalWriter singing synthesizer",
+      "topics": [],
+      "language": "C",
+      "created_at": "2026-09-23T14:31:40Z",
+      "pushed_at": "2026-09-23T14:32:00Z"
+    },
+    {
+      "repo": "Zichen-6688/Windows-MCP-Highspeed-Rust",
+      "url": "https://github.com/Zichen-6688/Windows-MCP-Highspeed-Rust",
+      "stars": 3,
+      "description": "A fast Model Context Protocol server that automates Windows desktop applications through the UI Automation (UIA) accessibility tree — pure semantic tree navigation and window handles, no screenshots.",
+      "topics": [],
+      "language": "Rust",
+      "created_at": "2026-09-26T08:27:40Z",
+      "pushed_at": "2026-09-26T13:49:21Z"
+    },
+    {
+      "repo": "martincantcode/15-minutes",
+      "url": "https://github.com/martincantcode/15-minutes",
+      "stars": 3,
+      "description": "15 minutes. For whom? This is an interactive mapping tool to visualize pedestrian accessibility with adjustable parameters - walking speed and step-free access. The example covers the city of Cologne,…",
+      "topics": [],
+      "language": "HTML",
+      "created_at": "2026-09-29T18:59:50Z",
+      "pushed_at": "2026-09-29T20:35:16Z"
+    },
+    {
+      "repo": "ho2006/sdu-accessible-study",
+      "url": "https://github.com/ho2006/sdu-accessible-study",
+      "stars": 3,
+      "description": "Accessible Windows companion for the SDU lab-safety learning portal, with hands-free timed course navigation.",
+      "topics": [],
+      "language": "JavaScript",
+      "created_at": "2026-09-27T07:56:39Z",
+      "pushed_at": "2026-09-27T08:28:51Z"
+    },
+    {
+      "repo": "rescue96/teckgeekz-consent",
+      "url": "https://github.com/rescue96/teckgeekz-consent",
+      "stars": 3,
+      "description": "A lightweight, accessible, zero-dependency JavaScript plugin for alerting users about cookie usage and managing privacy compliance on modern websites.",
+      "topics": [
+        "ccpa-cookie-consent",
+        "consent-mode-v2",
+        "cookie",
+        "cookie-banner",
+        "cookie-consent",
+        "gdpr"
+      ],
+      "language": "JavaScript",
+      "created_at": "2026-09-29T14:53:44Z",
+      "pushed_at": "2026-09-30T08:05:25Z"
+    },
+    {
+      "repo": "YassineMenai/easyai",
+      "url": "https://github.com/YassineMenai/easyai",
+      "stars": 3,
+      "description": "A collection of easy-to-use Google Colab notebooks for running different AI models without complicated setup. The goal of this project is to make AI models more accessible by providing ready-to-use Co…",
+      "topics": [],
+      "language": "Jupyter Notebook",
+      "created_at": "2026-09-23T00:50:57Z",
+      "pushed_at": "2026-09-23T01:14:20Z"
+    }
+  ],
+  "rising": [
+    {
+      "repo": "opendataloader-project/opendataloader-pdf",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "stars": 29440,
+      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+      "topics": [
+        "a11y",
+        "accessibility",
+        "ai",
+        "bounding-box",
+        "document-parsing",
+        "eaa",
+        "html",
+        "json",
+        "markdown",
+        "ocr",
+        "ocr-recognition",
+        "pdf",
+        "pdf-accessibility",
+        "pdf-converter",
+        "pdf-extraction",
+        "pdf-parser",
+        "pdf-ua",
+        "rag",
+        "tables",
+        "tagged-pdf"
+      ],
+      "language": "Java",
+      "created_at": "2025-05-13T05:48:02Z",
+      "pushed_at": "2026-09-30T10:23:24Z"
+    },
+    {
+      "repo": "darkreader/darkreader",
+      "url": "https://github.com/darkreader/darkreader",
+      "stars": 22425,
+      "description": "Dark Reader Chrome and Firefox extension",
+      "topics": [
+        "accessibility",
+        "chrome-extension",
+        "dark-mode",
+        "dark-theme",
+        "darkmode",
+        "eye-care",
+        "firefox-addon",
+        "night-mode",
+        "nightmode"
+      ],
+      "language": "TypeScript",
+      "created_at": "2014-11-15T14:22:52Z",
+      "pushed_at": "2026-09-30T12:40:24Z"
+    },
+    {
+      "repo": "adobe/react-spectrum",
+      "url": "https://github.com/adobe/react-spectrum",
+      "stars": 15902,
+      "description": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
+      "topics": [
+        "accessibility",
+        "design-systems",
+        "react",
+        "react-components",
+        "ui-components",
+        "wai-aria"
+      ],
+      "language": "TypeScript",
+      "created_at": "2019-09-13T23:32:51Z",
+      "pushed_at": "2026-09-30T07:08:37Z"
+    },
+    {
+      "repo": "mui/base-ui",
+      "url": "https://github.com/mui/base-ui",
+      "stars": 11041,
+      "description": "Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI.",
+      "topics": [
+        "accessibility",
+        "base-ui",
+        "components",
+        "design-system",
+        "react",
+        "react-components",
+        "ui",
+        "wai-aria"
+      ],
+      "language": "TypeScript",
+      "created_at": "2024-02-23T13:23:54Z",
+      "pushed_at": "2026-09-30T13:12:51Z"
+    },
+    {
+      "repo": "webstudio-is/webstudio",
+      "url": "https://github.com/webstudio-is/webstudio",
+      "stars": 9003,
+      "description": "Open source website builder and Webflow alternative. Webstudio is an advanced visual builder that connects to any headless CMS, supports all CSS properties, and can be hosted anywhere, including with …",
+      "topics": [
+        "accessibility",
+        "alternative",
+        "cloudflare",
+        "cloudflare-workers",
+        "design",
+        "free",
+        "frontend",
+        "open-source",
+        "radix-ui",
+        "react",
+        "remix",
+        "web-development",
+        "webflow",
+        "website-builder",
+        "website-development",
+        "websites",
+        "webstudio"
+      ],
+      "language": "TypeScript",
+      "created_at": "2022-03-13T04:19:01Z",
+      "pushed_at": "2026-09-30T13:21:11Z"
+    },
+    {
+      "repo": "ariakit/ariakit",
+      "url": "https://github.com/ariakit/ariakit",
+      "stars": 8625,
+      "description": "Toolkit with accessible components, styles, and examples for your next web app",
+      "topics": [
+        "a11y",
+        "accessibility",
+        "accessible",
+        "aria",
+        "ariakit",
+        "components",
+        "css",
+        "react",
+        "reactjs",
+        "tailwindcss",
+        "wai-aria"
+      ],
+      "language": "TypeScript",
+      "created_at": "2017-09-19T22:00:42Z",
+      "pushed_at": "2026-09-30T11:30:31Z"
+    },
+    {
+      "repo": "grommet/grommet",
+      "url": "https://github.com/grommet/grommet",
+      "stars": 8348,
+      "description": "a react-based framework that provides accessibility, modularity, responsiveness, and theming in a tidy package",
+      "topics": [
+        "a11y",
+        "babel",
+        "design-system",
+        "grommet",
+        "javascript",
+        "react",
+        "ux-framework"
+      ],
+      "language": "JavaScript",
+      "created_at": "2015-03-24T08:54:10Z",
+      "pushed_at": "2026-09-30T04:36:14Z"
+    },
+    {
+      "repo": "dequelabs/axe-core",
+      "url": "https://github.com/dequelabs/axe-core",
+      "stars": 7577,
+      "description": "Accessibility engine for automated Web UI testing",
+      "topics": [
+        "a11y",
+        "accessibility",
+        "axe"
+      ],
+      "language": "HTML",
+      "created_at": "2015-06-10T15:26:45Z",
+      "pushed_at": "2026-09-29T23:37:23Z"
+    },
+    {
+      "repo": "unovue/reka-ui",
+      "url": "https://github.com/unovue/reka-ui",
+      "stars": 6850,
+      "description": "An open-source UI component library for building high-quality, accessible design systems and web apps for Vue. Previously Radix Vue",
+      "topics": [
+        "accessibility",
+        "accessible",
+        "component-library",
+        "design-system",
+        "headless",
+        "nuxt",
+        "primitives",
+        "radix-ui",
+        "reka-ui",
+        "ui",
+        "ui-components",
+        "ui-kit",
+        "vue",
+        "vue-component-library",
+        "vue-components",
+        "vue-radix"
+      ],
+      "language": "Vue",
+      "created_at": "2023-06-22T11:08:02Z",
+      "pushed_at": "2026-09-30T09:16:57Z"
+    },
+    {
+      "repo": "skeletonlabs/skeleton",
+      "url": "https://github.com/skeletonlabs/skeleton",
+      "stars": 6062,
+      "description": "Skeleton is an adaptive design system powered by Tailwind CSS.",
+      "topics": [
+        "a11y",
+        "accessibility",
+        "astro",
+        "components",
+        "components-library",
+        "design",
+        "design-system",
+        "nextjs",
+        "react",
+        "svelte",
+        "sveltekit",
+        "tailwindcss",
+        "user-interface",
+        "vite"
+      ],
+      "language": "TypeScript",
+      "created_at": "2022-02-23T16:04:46Z",
+      "pushed_at": "2026-09-29T17:03:24Z"
+    },
+    {
+      "repo": "chakra-ui/zag",
+      "url": "https://github.com/chakra-ui/zag",
+      "stars": 5219,
+      "description": "Build your design system in React, Solid, Vue, Svelte or Vanilla. Powered by finite state machines",
+      "topics": [
+        "a11y",
+        "accessibility",
+        "agnostic",
+        "component",
+        "design-systems",
+        "headless",
+        "headlessui",
+        "library",
+        "primitives",
+        "react",
+        "solid",
+        "state-machines",
+        "svelte",
+        "sveltejs",
+        "ui",
+        "ui-components",
+        "ui-kit",
+        "universal",
+        "vue",
+        "xstate"
+      ],
+      "language": "TypeScript",
+      "created_at": "2021-07-07T11:38:07Z",
+      "pushed_at": "2026-09-30T02:17:11Z"
+    },
+    {
+      "repo": "YauhenKavalchuk/interview-questions",
+      "url": "https://github.com/YauhenKavalchuk/interview-questions",
+      "stars": 4546,
+      "description": "Популярные HTML / CSS / JavaScript / ECMAScript / TypeScript / React / Vue / Angular / Node вопросы на интервью и ответы на них (https://tinyurl.com/wxysrpsy)",
+      "topics": [
+        "accessibility",
+        "angular",
+        "css",
+        "ecmascript",
+        "html",
+        "interview",
+        "interview-preparation",
+        "interview-questions",
+        "javascript",
+        "js",
+        "nodejs",
+        "react",
+        "redux",
+        "security",
+        "typescript",
+        "vue"
+      ],
+      "language": null,
+      "created_at": "2021-03-30T14:06:13Z",
+      "pushed_at": "2026-09-30T09:50:40Z"
+    },
+    {
+      "repo": "KittyGiraudel/a11y-dialog",
+      "url": "https://github.com/KittyGiraudel/a11y-dialog",
+      "stars": 2488,
+      "description": "A very lightweight and flexible accessible modal dialog script.",
+      "topics": [
+        "a11y",
+        "accessibility",
+        "dialog",
+        "modal"
+      ],
+      "language": "TypeScript",
+      "created_at": "2016-02-11T11:01:11Z",
+      "pushed_at": "2026-09-28T07:30:38Z"
+    },
+    {
+      "repo": "cypress-io/cypress-documentation",
+      "url": "https://github.com/cypress-io/cypress-documentation",
+      "stars": 1049,
+      "description": "Cypress Documentation for the Cypress App, API, Cypress Cloud, UI Coverage and Cypress Accessibility.",
+      "topics": [
+        "accessibility",
+        "accessibility-testing",
+        "api",
+        "cypress",
+        "documentation",
+        "examples",
+        "faq",
+        "guides",
+        "how-to",
+        "integrations",
+        "plugins",
+        "ui",
+        "ui-coverage"
+      ],
+      "language": "TypeScript",
+      "created_at": "2016-01-11T04:40:50Z",
+      "pushed_at": "2026-09-30T12:41:31Z"
+    },
+    {
+      "repo": "yamada-ui/yamada-ui",
+      "url": "https://github.com/yamada-ui/yamada-ui",
+      "stars": 1028,
+      "description": "React UI components of the Yamada, by the Yamada, for the Yamada built with React and Emotion.",
+      "topics": [
+        "a11y",
+        "animation",
+        "animation-css",
+        "dark-mode",
+        "emotion",
+        "framer-motion",
+        "react",
+        "responsive-design",
+        "ui",
+        "ui-components",
+        "ui-design",
+        "ui-library",
+        "uikit",
+        "yamada-ui"
+      ],
+      "language": "TypeScript",
+      "created_at": "2022-10-06T13:31:56Z",
+      "pushed_at": "2026-09-30T11:35:07Z"
+    },
+    {
+      "repo": "VocaHQ/vocalinux",
+      "url": "https://github.com/VocaHQ/vocalinux",
+      "stars": 894,
+      "description": "Free, open-source, 100% offline voice dictation for Linux. Speak and type anywhere via whisper.cpp, Whisper & VOSK engines, GPU-accelerated, works on X11 + Wayland!",
+      "topics": [
+        "accessibility",
+        "dictation",
+        "gpu-acceleration",
+        "linux",
+        "offline-first",
+        "privacy-first",
+        "python",
+        "speech-recognition",
+        "speech-to-text",
+        "voice",
+        "voice-typing",
+        "vosk",
+        "wayland",
+        "whisper",
+        "whisper-cpp"
+      ],
+      "language": "Python",
+      "created_at": "2025-04-12T03:55:20Z",
+      "pushed_at": "2026-09-30T12:56:58Z"
+    },
+    {
+      "repo": "jdevalk/specification.website",
+      "url": "https://github.com/jdevalk/specification.website",
+      "stars": 869,
+      "description": "Website specification — HTML, accessibility, security, SEO, agent-readiness. Platform-agnostic, sourced, MIT.",
+      "topics": [
+        "accessibility",
+        "agent-readiness",
+        "astro",
+        "cloudflare-pages",
+        "llms-txt",
+        "mcp",
+        "seo",
+        "specification",
+        "web-security",
+        "web-standards",
+        "well-known"
+      ],
+      "language": "TypeScript",
+      "created_at": "2026-05-29T09:13:26Z",
+      "pushed_at": "2026-09-30T11:46:04Z"
+    },
+    {
+      "repo": "AvdLee/RocketSimApp",
+      "url": "https://github.com/AvdLee/RocketSimApp",
+      "stars": 801,
+      "description": "RocketSim — 30+ tools for Xcode's iOS Simulator. Testing, debugging, network monitoring, captures, accessibility, app actions, and AI agent automation via the RocketSim CLI. Used by 80k+ developers.",
+      "topics": [
+        "accessibility",
+        "agent-skill",
+        "ai-automation",
+        "debugging",
+        "developer-tools",
+        "ios",
+        "ios-development",
+        "macos",
+        "network-monitoring",
+        "rocketsim",
+        "simulator",
+        "swift",
+        "testing",
+        "xcode",
+        "xcode-simulator"
+      ],
+      "language": "Swift",
+      "created_at": "2020-04-26T07:16:14Z",
+      "pushed_at": "2026-09-30T13:11:53Z"
+    },
+    {
+      "repo": "y3owk1n/neru",
+      "url": "https://github.com/y3owk1n/neru",
+      "stars": 765,
+      "description": "Hints, grids and vim keys for your whole desktop. Built for macOS, linux and windows, natively.",
+      "topics": [
+        "accessibility",
+        "homerow",
+        "keyboard",
+        "keyboard-navigation",
+        "linux",
+        "macos",
+        "macos-app",
+        "macosx",
+        "mouse",
+        "mouseless",
+        "ocr",
+        "system-wide",
+        "vim",
+        "vimium",
+        "warpd",
+        "wayland",
+        "x11"
+      ],
+      "language": "Go",
+      "created_at": "2025-10-31T10:09:28Z",
+      "pushed_at": "2026-09-30T07:51:20Z"
+    },
+    {
+      "repo": "pa11y/pa11y-ci",
+      "url": "https://github.com/pa11y/pa11y-ci",
+      "stars": 636,
+      "description": "Pa11y CI is a CI-centric accessibility test runner, built using Pa11y",
+      "topics": [
+        "a11y",
+        "accessibility",
+        "automated-testing",
+        "ci",
+        "pa11y",
+        "sitemap",
+        "testing"
+      ],
+      "language": "JavaScript",
+      "created_at": "2016-06-02T21:07:27Z",
+      "pushed_at": "2026-09-28T21:46:46Z"
+    },
+    {
+      "repo": "adaptlearning/adapt_framework",
+      "url": "https://github.com/adaptlearning/adapt_framework",
+      "stars": 630,
+      "description": "A toolkit for creating responsive, accessible, multilanguage HTML5 e-learning courses.",
+      "topics": [
+        "accessibility",
+        "adapt",
+        "elearning",
+        "html5",
+        "html5-elearning-courses",
+        "javascript",
+        "responsive",
+        "scorm",
+        "xapi"
+      ],
+      "language": "JavaScript",
+      "created_at": "2013-10-09T13:15:44Z",
+      "pushed_at": "2026-09-30T09:22:25Z"
+    },
+    {
+      "repo": "guidepup/guidepup",
+      "url": "https://github.com/guidepup/guidepup",
+      "stars": 567,
+      "description": "Screen reader automation library for testing.",
+      "topics": [
+        "a11y",
+        "a11y-api",
+        "a11y-automation",
+        "a11y-testing",
+        "accessibility",
+        "accessibility-automation",
+        "accessibility-testing",
+        "nvda",
+        "screen-reader",
+        "screen-reader-api",
+        "voiceover"
+      ],
+      "language": "TypeScript",
+      "created_at": "2021-12-09T10:20:50Z",
+      "pushed_at": "2026-09-30T05:50:49Z"
+    },
+    {
+      "repo": "vmware-clarity/ng-clarity",
+      "url": "https://github.com/vmware-clarity/ng-clarity",
+      "stars": 430,
+      "description": "Clarity Angular is a scalable, accessible, customizable, open-source design system built for Angular.",
+      "topics": [
+        "a11y",
+        "angular",
+        "design-system",
+        "ui-components"
+      ],
+      "language": "TypeScript",
+      "created_at": "2022-03-16T16:02:16Z",
+      "pushed_at": "2026-09-30T11:04:48Z"
+    },
+    {
+      "repo": "fecarrico/A11Y.md",
+      "url": "https://github.com/fecarrico/A11Y.md",
+      "stars": 415,
+      "description": "A context system for building accessible software by default — for developers and AI, with enforceable rules aligned to WCAG.",
+      "topics": [
+        "a11y",
+        "accessibility",
+        "claude-for-oss",
+        "design",
+        "devtools",
+        "front-end",
+        "interface",
+        "open-source",
+        "steering-behaviors"
+      ],
+      "language": "Python",
+      "created_at": "2026-04-26T19:01:56Z",
+      "pushed_at": "2026-09-29T22:03:03Z"
+    },
+    {
+      "repo": "toyota-connected/ivi-homescreen",
+      "url": "https://github.com/toyota-connected/ivi-homescreen",
+      "stars": 394,
+      "description": "Flutter Linux C++ embedder for desktop and embedded/automotive displays — Wayland, DRM/KMS, EGL, Vulkan (incl. zero-copy dma-buf), and software backends",
+      "topics": [
+        "accessibility",
+        "automotive",
+        "cpp",
+        "dart",
+        "dma-buf",
+        "drm-kms-egl",
+        "drm-kms-vulkan",
+        "embedded-flutter",
+        "embedded-linux",
+        "flutter",
+        "flutter-embedder",
+        "impeller",
+        "ivi",
+        "raspberry-pi",
+        "steam-deck",
+        "vulkan",
+        "wayland",
+        "wayland-egl",
+        "wayland-vulkan",
+        "yocto"
+      ],
+      "language": "C++",
+      "created_at": "2021-08-31T22:16:24Z",
+      "pushed_at": "2026-09-30T06:31:27Z"
+    },
+    {
+      "repo": "ibrahimcesar/react-lite-youtube-embed",
+      "url": "https://github.com/ibrahimcesar/react-lite-youtube-embed",
+      "stars": 380,
+      "description": "📺 ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎< A private by default, faster and cleaner YouTube embed component for React applications />",
+      "topics": [
+        "a11y",
+        "adaptive-loading",
+        "iframe",
+        "iframe-embeds",
+        "privacy",
+        "react",
+        "reactjs",
+        "reactjs-components",
+        "responsive",
+        "youtube"
+      ],
+      "language": "TypeScript",
+      "created_at": "2019-12-03T02:30:29Z",
+      "pushed_at": "2026-09-28T16:11:54Z"
+    },
+    {
+      "repo": "CMSgov/design-system",
+      "url": "https://github.com/CMSgov/design-system",
+      "stars": 366,
+      "description": "Open source design and front-end development resources for creating Section 508 compliant, responsive, and consistent websites.",
+      "topics": [
+        "a11y",
+        "civic-tech",
+        "css",
+        "design-system",
+        "dotgov",
+        "government",
+        "government-tech",
+        "guidelines",
+        "react",
+        "sass",
+        "section-508",
+        "utility-classes"
+      ],
+      "language": "TypeScript",
+      "created_at": "2017-02-07T03:13:01Z",
+      "pushed_at": "2026-09-30T02:45:21Z"
+    },
+    {
+      "repo": "dictation-toolbox/Caster",
+      "url": "https://github.com/dictation-toolbox/Caster",
+      "stars": 359,
+      "description": "Dragonfly-Based Voice Programming and Accessibility Toolkit",
+      "topics": [
+        "accessibility",
+        "accessibility-automation",
+        "dragonfly",
+        "grammars",
+        "open-source",
+        "programming",
+        "python",
+        "rsi",
+        "voice",
+        "voice-commands",
+        "voice-control",
+        "voice-programming",
+        "voice-recognition"
+      ],
+      "language": "Python",
+      "created_at": "2013-11-06T02:27:35Z",
+      "pushed_at": "2026-09-30T11:51:42Z"
+    },
+    {
+      "repo": "syncfusion/ej2-angular-ui-components",
+      "url": "https://github.com/syncfusion/ej2-angular-ui-components",
+      "stars": 293,
+      "description": "Syncfusion Angular UI components library offer more than 50+ cross-browser, responsive, and lightweight angular UI controls for building modern web applications.",
+      "topics": [
+        "accessibility",
+        "angular",
+        "angular-components",
+        "angular-material",
+        "angular-ui",
+        "angular7",
+        "bootstrap",
+        "charts",
+        "data-grid",
+        "data-visualization",
+        "diagram-generator",
+        "diagramming",
+        "form-controls",
+        "material-design",
+        "office-ui-fabric",
+        "pivot-tables",
+        "scheduler",
+        "stock-chart",
+        "ui-components",
+        "word-processor"
+      ],
+      "language": "TypeScript",
+      "created_at": "2018-10-31T06:09:18Z",
+      "pushed_at": "2026-09-30T08:43:51Z"
+    },
+    {
+      "repo": "public-ui/kolibri",
+      "url": "https://github.com/public-ui/kolibri",
+      "stars": 283,
+      "description": "The accessible HTML-Standard",
+      "topics": [
+        "a11y",
+        "accessibility",
+        "angular",
+        "barrierefreiheit",
+        "client-side-rendering",
+        "csr",
+        "design-system",
+        "react",
+        "service-side",
+        "service-side-generation",
+        "service-side-rendering",
+        "solid-js",
+        "ssg",
+        "ssr",
+        "styleguide",
+        "theming",
+        "ui",
+        "vuejs",
+        "webcomponents"
+      ],
+      "language": "TypeScript",
+      "created_at": "2022-10-12T06:16:11Z",
+      "pushed_at": "2026-09-30T13:19:13Z"
+    },
+    {
+      "repo": "nuxt/a11y",
+      "url": "https://github.com/nuxt/a11y",
+      "stars": 231,
+      "description": "Nuxt module to provide accessibility hinting and utilities.",
+      "topics": [
+        "a11y",
+        "accessibility",
+        "nuxt",
+        "nuxt-module"
+      ],
+      "language": "TypeScript",
+      "created_at": "2023-09-17T20:53:28Z",
+      "pushed_at": "2026-09-28T05:37:15Z"
+    },
+    {
+      "repo": "posva/focus-trap-vue",
+      "url": "https://github.com/posva/focus-trap-vue",
+      "stars": 216,
+      "description": "Vue component to trap the focus within a DOM element",
+      "topics": [
+        "a11y",
+        "focus",
+        "lock",
+        "trap",
+        "ui",
+        "ux",
+        "vue"
+      ],
+      "language": "JavaScript",
+      "created_at": "2019-07-30T11:47:56Z",
+      "pushed_at": "2026-09-29T18:12:38Z"
+    },
+    {
+      "repo": "Access4all/adg",
+      "url": "https://github.com/Access4all/adg",
+      "stars": 215,
+      "description": "Accessibility Developer Guide",
+      "topics": [
+        "a11y",
+        "accessibility",
+        "wcag"
+      ],
+      "language": "HTML",
+      "created_at": "2017-07-14T18:24:23Z",
+      "pushed_at": "2026-09-30T08:32:55Z"
+    },
+    {
+      "repo": "niki914/zafiro",
+      "url": "https://github.com/niki914/zafiro",
+      "stars": 213,
+      "description": "Open-source BYOK AI agent for Android. Full phone control, native Shell & Python 3, with Skills and MCP support. Built with Material 3 Expressive. Works via Shizuku (root optional). Bring any provider…",
+      "topics": [
+        "accessibility",
+        "agent",
+        "ai",
+        "android",
+        "automation",
+        "kotlin",
+        "llm",
+        "lsposed",
+        "material-design",
+        "mcp",
+        "mutimodal",
+        "openrouter",
+        "python",
+        "root",
+        "shell",
+        "shizuku",
+        "skills",
+        "ssh",
+        "termux",
+        "xposed"
+      ],
+      "language": "Kotlin",
+      "created_at": "2026-06-05T05:25:32Z",
+      "pushed_at": "2026-09-30T13:06:58Z"
+    },
+    {
+      "repo": "vuelessjs/vueless",
+      "url": "https://github.com/vuelessjs/vueless",
+      "stars": 206,
+      "description": "A UI Library with Open Architecture for Vue & Nuxt — powered by Storybook and Tailwind CSS 💚",
+      "topics": [
+        "a11y",
+        "component-library",
+        "design-system",
+        "nuxt",
+        "storybook",
+        "styleless",
+        "tailwindcss",
+        "ui-components",
+        "ui-library",
+        "vite",
+        "vue",
+        "vue-component",
+        "vue-components",
+        "vue-datepicker",
+        "vue-library",
+        "vue-select",
+        "vue-table",
+        "vue-tailwind",
+        "vue3",
+        "vuejs"
+      ],
+      "language": "TypeScript",
+      "created_at": "2024-01-02T06:55:45Z",
+      "pushed_at": "2026-09-30T05:32:52Z"
+    },
+    {
+      "repo": "nuxt-modules/html-validator",
+      "url": "https://github.com/nuxt-modules/html-validator",
+      "stars": 202,
+      "description": "HTML validation for Nuxt",
+      "topics": [
+        "a11y",
+        "hacktoberfest",
+        "html",
+        "html-validate",
+        "module",
+        "nuxt",
+        "validation"
+      ],
+      "language": "TypeScript",
+      "created_at": "2020-10-28T15:35:49Z",
+      "pushed_at": "2026-09-28T21:28:13Z"
+    }
+  ],
+  "awesome": [],
+  "failures": [
+    "feed 404: W3C WAI News https://www.w3.org/WAI/news/feed.xml"
+  ]
+}
