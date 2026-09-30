@@ -23,6 +23,11 @@ spec_repos:
   - repo: act-rules/act-rules.github.io
     group: AGWG / WCAG
 
+  # --- COGA TF (認知・学習障害。AGWG と APA の合同タスクフォース) ---
+  # WCAG 3 への COGA のコメントは w3c/wcag3 の coga ラベルに出るので、上の wcag3 で拾える
+  - repo: w3c/coga
+    group: COGA TF
+
   # --- ARIA WG ---
   - repo: w3c/aria
     group: ARIA WG
@@ -75,6 +80,9 @@ minutes:
     label: APA WG
   - name: aria-at
     label: ARIA-AT CG
+  # 定例 (月) と WCAG 3 レビュー (木)・Research サブグループ (火) がすべて coga で記録される
+  - name: coga
+    label: COGA TF
 
 # ---------------------------------------------------------------
 # 3. フィード (RSS / Atom)。keywords があればタイトル+概要で絞る
