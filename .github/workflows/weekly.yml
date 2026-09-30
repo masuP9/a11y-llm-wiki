@@ -73,7 +73,13 @@ jobs:
 
       - name: Commit wiki
         if: env.HAS_CLAUDE == 'true' && !inputs.skip_llm
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # claude-code-action は git の認証を自分の App トークンに差し替え、終了時にそのトークンを失効させる。
+          # そのままだと push が認証エラーになるので、ワークフローのトークンに戻す。
+          git config --local --unset-all http.https://github.com/.extraheader || true
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git add wiki
           git commit -m "weekly: ${{ steps.collect.outputs.week }}" || { echo "no wiki changes"; exit 0; }
           git pull --rebase
