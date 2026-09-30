@@ -8,19 +8,26 @@ Web アクセシビリティの標準化動向と GitHub エコシステムの L
 
 ## 週次ダイジェスト
 
-(まだありません)
+- [[weekly/2026-W40]] — 2026-09-23 〜 2026-09-30
 
 ## 仕様 (specs)
 
-(まだありません)
+- [[specs/wcag-3]] — WCAG 3.0 (WD)
+- [[specs/wcag-2]] — WCAG 2.x
+- [[specs/wcag2ict]] — WCAG2ICT
+- [[specs/wai-aria]] — WAI-ARIA と AAM
 
 ## トピック (topics)
 
-(まだありません)
+- [[topics/interop-and-aria-at]] — Interop と ARIA-AT、AT Driver、ACD
+- [[topics/css-and-accessibility]] — CSS の提案とアクセシビリティ
+- [[topics/a11y-tree-for-ai-agents]] — AI エージェントとアクセシビリティツリー
 
 ## 人物 (people)
 
-(まだありません)
+- [[people/spectranaut]]
+- [[people/patrickhlauke]]
+- [[people/rachaelbradley]]
 
 ## リポジトリ (repos)
 
