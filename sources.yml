@@ -1,0 +1,147 @@
+# 収集ソース定義
+# scripts/collect.py が読み、前回実行以降の差分を raw/<date>/ に書き出す。
+# 取得に失敗したソースは collected.md の「取得失敗」に出るので、/lint で見直す。
+
+defaults:
+  window_days: 7          # state/last_run.json が無いときの遡り日数
+  max_pages: 3            # issues の全件走査時の最大ページ数 (100件/ページ)
+
+# ---------------------------------------------------------------
+# 1. 標準: GitHub リポジトリ (issues / PR / releases)
+#    labels:   指定ラベルごとに取得 (OR)
+#    keywords: 全件を走査し、タイトルにキーワードを含むものだけ残す
+#    どちらも無ければ全件
+# ---------------------------------------------------------------
+spec_repos:
+  # --- AGWG / WCAG ---
+  - repo: w3c/wcag
+    group: AGWG / WCAG
+  - repo: w3c/wcag3
+    group: AGWG / WCAG
+  - repo: w3c/wcag2ict
+    group: AGWG / WCAG
+  - repo: act-rules/act-rules.github.io
+    group: AGWG / WCAG
+
+  # --- ARIA WG ---
+  - repo: w3c/aria
+    group: ARIA WG
+  - repo: w3c/aria-practices
+    group: ARIA WG
+  - repo: w3c/accname
+    group: ARIA WG
+  - repo: w3c/core-aam
+    group: ARIA WG
+  - repo: w3c/html-aam
+    group: ARIA WG
+  - repo: w3c/svg-aam
+    group: ARIA WG
+  - repo: w3c/html-aria
+    group: ARIA WG
+  - repo: w3c/aria-at
+    group: ARIA WG
+
+  # --- 水平レビュー (APA) ---
+  - repo: w3c/a11y-request
+    group: APA / 水平レビュー
+  - repo: w3c/csswg-drafts
+    group: APA / 水平レビュー
+    labels: [a11y-tracker, a11y-needs-resolution]
+
+  # --- WHATWG ---
+  - repo: whatwg/html
+    group: WHATWG
+    labels: [a11y-tracker, a11y-needs-resolution, "topic: accessibility"]
+    keywords: [accessib, a11y, aria, screen reader, focus, inert, dialog, popover, "role=", accessible name, alt text, captions]
+
+  # --- ブラウザ / Interop ---
+  - repo: web-platform-tests/interop-accessibility
+    group: ブラウザ / AT
+  - repo: web-platform-tests/interop
+    group: ブラウザ / AT
+    keywords: [accessib, a11y, aria]
+
+# ---------------------------------------------------------------
+# 2. 議事録: w3.org/YYYY/MM/DD-<name>-minutes.html を日付ごとに探索
+# ---------------------------------------------------------------
+minutes:
+  - name: ag
+    label: AGWG
+  - name: aria
+    label: ARIA WG
+  - name: aria-apg
+    label: ARIA APG TF
+  - name: apa
+    label: APA WG
+  - name: aria-at
+    label: ARIA-AT CG
+
+# ---------------------------------------------------------------
+# 3. フィード (RSS / Atom)。keywords があればタイトル+概要で絞る
+# ---------------------------------------------------------------
+feeds:
+  - name: W3C WAI News
+    url: https://www.w3.org/WAI/news/feed.xml
+    group: W3C
+  - name: W3C News
+    url: https://www.w3.org/news/feed/
+    group: W3C
+    keywords: [accessib, WCAG, ARIA, WAI]
+  - name: WebKit Blog
+    url: https://webkit.org/feed/
+    group: ブラウザ / AT
+    keywords: [accessib, a11y, ARIA, VoiceOver, focus]
+  - name: Chrome for Developers Blog
+    url: https://developer.chrome.com/static/blog/feed.xml
+    group: ブラウザ / AT
+    keywords: [accessib, a11y, ARIA, screen reader, focus]
+  - name: Mozilla Hacks
+    url: https://hacks.mozilla.org/feed/
+    group: ブラウザ / AT
+    keywords: [accessib, a11y, ARIA, screen reader]
+  - name: Igalia
+    url: https://www.igalia.com/feed.xml
+    group: ブラウザ / AT
+    keywords: [accessib, a11y, ARIA, AT-SPI, Orca]
+
+# ---------------------------------------------------------------
+# 4. エコシステム: リリースだけ追う既知リポジトリ
+# ---------------------------------------------------------------
+release_watch:
+  - dequelabs/axe-core
+  - IBMa/equal-access
+  - nvaccess/nvda
+  - microsoft/accessibility-insights-web
+  - GoogleChrome/lighthouse
+  - pa11y/pa11y
+  - adobe/react-spectrum
+  - w3c/aria-at-app
+
+# ---------------------------------------------------------------
+# 5. 新規リポジトリ発見 (GitHub Search)
+#    {since} は前回実行日に置換。既出は state/seen_repos.json で除外
+# ---------------------------------------------------------------
+discovery:
+  min_stars: 3
+  per_query: 30
+  queries:
+    - "topic:accessibility created:>={since}"
+    - "topic:a11y created:>={since}"
+    - "topic:wcag created:>={since}"
+    - "topic:aria created:>={since}"
+    - "topic:screen-reader created:>={since}"
+    - "accessibility in:name,description created:>={since}"
+    - "wcag in:name,description created:>={since}"
+  # 伸びている既存リポジトリ (直近に push があり stars が多いもの)
+  rising:
+    - "topic:accessibility pushed:>={since} stars:>=200"
+    - "topic:a11y pushed:>={since} stars:>=200"
+
+# ---------------------------------------------------------------
+# 6. Awesome 系リスト: README への追加行を拾う
+# ---------------------------------------------------------------
+awesome:
+  - repo: brunopulis/awesome-a11y
+    path: README.md
+  - repo: a11yproject/a11yproject.com
+    path: src/resources

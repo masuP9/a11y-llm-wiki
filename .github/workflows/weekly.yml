@@ -1,0 +1,94 @@
+name: weekly
+
+on:
+  schedule:
+    # 毎週月曜 08:47 JST (日曜 23:47 UTC)
+    - cron: "47 23 * * 0"
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "収集開始日 YYYY-MM-DD (空なら前回実行以降)"
+        required: false
+      skip_llm:
+        description: "収集だけ行い wiki 更新をしない"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+  id-token: write
+
+concurrency:
+  group: weekly
+  cancel-in-progress: false
+
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      HAS_CLAUDE: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' || secrets.ANTHROPIC_API_KEY != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml
+
+      - name: Collect
+        id: collect
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SINCE: ${{ inputs.since }}
+        run: |
+          python scripts/collect.py
+          echo "week=$(date -u +%G-W%V)" >> "$GITHUB_OUTPUT"
+
+      - name: Commit raw
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add raw state
+          git commit -m "collect: ${{ steps.collect.outputs.dir }}" || echo "nothing to commit"
+          git push
+
+      - name: Update wiki with Claude
+        if: env.HAS_CLAUDE == 'true' && !inputs.skip_llm
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            /weekly ${{ steps.collect.outputs.dir }}
+
+            .claude/commands/weekly.md の手順に従うこと。
+            週次ダイジェストのファイル名は wiki/weekly/${{ steps.collect.outputs.week }}.md とする。
+            git の commit / push はしないこと (後続ステップで行う)。
+          claude_args: >-
+            --max-turns 120
+            --allowedTools "Read,Write,Edit,Glob,Grep,WebFetch,Bash(ls:*),Bash(git diff:*),Bash(git status:*),Bash(date:*)"
+
+      - name: Commit wiki
+        if: env.HAS_CLAUDE == 'true' && !inputs.skip_llm
+        run: |
+          git add wiki
+          git commit -m "weekly: ${{ steps.collect.outputs.week }}" || { echo "no wiki changes"; exit 0; }
+          git pull --rebase
+          git push
+
+      - name: Open digest issue
+        if: env.HAS_CLAUDE == 'true' && !inputs.skip_llm
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          f="wiki/weekly/${{ steps.collect.outputs.week }}.md"
+          [ -f "$f" ] || { echo "digest not found: $f"; exit 0; }
+          # frontmatter を除いた本文を Issue にする (GitHub 通知で届く)
+          awk 'BEGIN{n=0} /^---$/ && n<2 {n++; next} n>=2' "$f" > /tmp/body.md
+          printf '\n\n---\n[wiki で読む](%s/%s/blob/main/%s)\n' "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$f" >> /tmp/body.md
+          gh label create digest --color 0E8A16 2>/dev/null || true
+          gh issue create --title "Web Accessibility Weekly ${{ steps.collect.outputs.week }}" \
+            --label digest --body-file /tmp/body.md
