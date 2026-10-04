@@ -2,8 +2,8 @@
 title: WCAG2ICT
 type: spec
 status: Note
-updated: 2026-09-30
-sources: [raw/2026-09-30]
+updated: 2026-10-04
+sources: [raw/2026-09-30, raw/2026-10-04]
 ---
 # WCAG2ICT
 
@@ -16,6 +16,7 @@ WCAG 2 を Web 以外の ICT (文書・ソフトウェア) に当てはめるた
 
 ## 最近の動き
 
+- 2026-10 Level AAA の SC の AG WG レビュー Issue (`Please Review`) が引き続き更新された。例: [#892](https://github.com/w3c/wcag2ict/issues/892) (1.4.6)、[#903](https://github.com/w3c/wcag2ict/issues/903) (1.3.6)、[#896](https://github.com/w3c/wcag2ict/issues/896) (2.1.3)。
 - 2026-09 AAA の SC 約 20 件の AG WG レビュー Issue が更新された (`Please Review` ラベル)。
 - 2026-09 Key Terms 節の変更に対する編集上のコメント ([w3c/wcag2ict#1002](https://github.com/w3c/wcag2ict/issues/1002))。
 

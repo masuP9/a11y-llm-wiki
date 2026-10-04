@@ -2,8 +2,8 @@
 title: WCAG 3.0
 type: spec
 status: WD
-updated: 2026-09-30
-sources: [raw/2026-09-30]
+updated: 2026-10-04
+sources: [raw/2026-09-30, raw/2026-10-04]
 ---
 # WCAG 3.0
 
@@ -18,6 +18,9 @@ W3C Accessibility Guidelines 3.0。AGWG が策定中の次世代ガイドライ�
 
 ## 最近の動き
 
+- 2026-09-30〜10-04 mcking65 が「programmatically」系の用語を整理する Issue を連続して起票した。[#885](https://github.com/w3c/wcag3/issues/885) は「programmatically determinable」の定義が使われ方に合わないとして、定義を「Exposed to user agents in an application programming interface」に置き換える案を出している。同義語から「programmatically」を外す PR [#886](https://github.com/w3c/wcag3/pull/886) も参照されている (PR の状態は未確認)。個別の provision への Issue が続く: [#884](https://github.com/w3c/wcag3/issues/884) (Decorative images hidden)、[#883](https://github.com/w3c/wcag3/issues/883)・[#882](https://github.com/w3c/wcag3/issues/882) (Risk comparable)、[#889](https://github.com/w3c/wcag3/issues/889) (Changes to elements notified)、[#890](https://github.com/w3c/wcag3/issues/890) (視覚ラベルと programmatic name の要件を分ける)、[#892](https://github.com/w3c/wcag3/issues/892) (All steps listed)、[#894](https://github.com/w3c/wcag3/issues/894) (Return to start prominent)。いずれもコメント 1 件以下で、議論はこれから。
+- 2026-10 decorative images の定義の Issue [#878](https://github.com/w3c/wcag3/issues/878) が 34 コメントに伸びた。内容は未確認。
+- 2026-10 「single pointer」と「simple pointer」が紛らわしいという Issue [#643](https://github.com/w3c/wcag3/issues/643) が close (理由は未確認)。
 - 2026-09-29 AGWG で要件のタグ付け (categorization) 作業を 4 グループに分けて実施。結果は survey ([tagging_sept_26](https://www.w3.org/wbs/35422/tagging_sept_26/)) で集め、chair が数週間かけてまとめる。決議はなし ([IRC](https://www.w3.org/2026/09/29-ag-irc))。進行は [[people/rachaelbradley]]。
 - 2026-09 タグ付け作業の中で「Hover content persistent」を別要件にした理由が分からないという指摘 ([w3c/wcag3#879](https://github.com/w3c/wcag3/issues/879))。
 - 2026-09 decorative images の定義を見直す提案 ([w3c/wcag3#878](https://github.com/w3c/wcag3/issues/878))、「Error messages collocated」の and/or が曖昧という指摘 ([w3c/wcag3#877](https://github.com/w3c/wcag3/issues/877))。

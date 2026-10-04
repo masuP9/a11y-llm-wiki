@@ -2,8 +2,8 @@
 title: WCAG 2.x
 type: spec
 status: REC
-updated: 2026-09-30
-sources: [raw/2026-09-30]
+updated: 2026-10-04
+sources: [raw/2026-09-30, raw/2026-10-04]
 ---
 # WCAG 2.x
 
@@ -15,6 +15,8 @@ Web Content Accessibility Guidelines 2.0 / 2.1 / 2.2。リポジトリは [w3c/w
 
 ## 最近の動き
 
+- 2026-10 「フォーカス可能な要素に role が必須か」([w3c/wcag#3029](https://github.com/w3c/wcag/issues/3029)、61 コメント) が close。Issue 上は「working group response は長いスレッドの終わり近く」とあるが、結論は確認できず未確認。
+- 2026-10 SC 2.1.4 の例が薄く判別しにくいという Issue ([w3c/wcag#953](https://github.com/w3c/wcag/issues/953)) が close。focus indicator のスタイルガイドなど新規ガイダンス案 ([#5387](https://github.com/w3c/wcag/issues/5387)、[#5388](https://github.com/w3c/wcag/issues/5388)、[#5389](https://github.com/w3c/wcag/issues/5389)) も close された (理由は未確認)。
 - 2026-09-29 AGWG で [[people/patrickhlauke]] が、フォーカス可能な要素に role が必須かという議論 ([w3c/wcag#3029](https://github.com/w3c/wcag/issues/3029)、コメント 60 件) への意見を募った ([IRC](https://www.w3.org/2026/09/29-ag-irc))。
 - 2026-09 overlay ツールが conforming alternate version (CAV) になりうるかの Issue ([w3c/wcag#2750](https://github.com/w3c/wcag/issues/2750)、コメント 79 件) が close。論点は新しい Issue [w3c/wcag#5373](https://github.com/w3c/wcag/issues/5373) に要約して移された。
 - 2026-09 2.5.8 Target Size (Minimum) の Inline 例外が、文の外にある control と接する場合にも効くかという質問 ([w3c/wcag#5384](https://github.com/w3c/wcag/issues/5384))。

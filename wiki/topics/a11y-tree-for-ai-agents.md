@@ -1,8 +1,8 @@
 ---
 title: AI エージェントとアクセシビリティツリー
 type: topic
-updated: 2026-09-30
-sources: [raw/2026-09-30]
+updated: 2026-10-04
+sources: [raw/2026-09-30, raw/2026-10-04]
 ---
 # AI エージェントとアクセシビリティツリー
 
@@ -19,6 +19,8 @@ AI エージェント (computer use、ブラウザ操作) が画面を読む手�
 
 ## 最近の動き
 
+- 2026-10-01 WebMCP (Web Machine Learning CG) が APA に水平レビューを依頼。自己レビューは [webmachinelearning/webmcp#272](https://github.com/webmachinelearning/webmcp/issues/272)。TPAC (2026-10-27) の F2F への参加も呼びかけている ([w3c/a11y-request#189](https://github.com/w3c/a11y-request/issues/189))。
+- 2026-10-04 Android / デスクトップの accessibility API でエージェントに端末を操作させるリポジトリが新規・既存とも目立つ: [oroplex/pony](https://github.com/oroplex/pony) (★8、MCP)、[boxshell-org/BoxAgent](https://github.com/boxshell-org/BoxAgent) (★3)、既存の [lahfir/agent-desktop](https://github.com/lahfir/agent-desktop) (★1761、OS のアクセシビリティツリー)、[Core-Mate/OpenGUI](https://github.com/Core-Mate/OpenGUI) (★1813)。
 - 2026-09-30 上記の新規リポジトリを発見 ([[repos/discovered]])。
 
 ## 関連

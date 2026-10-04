@@ -1,8 +1,8 @@
 ---
 title: Interop と ARIA-AT (支援技術の相互運用テスト)
 type: topic
-updated: 2026-09-30
-sources: [raw/2026-09-30]
+updated: 2026-10-04
+sources: [raw/2026-09-30, raw/2026-10-04]
 ---
 # Interop と ARIA-AT
 
@@ -17,6 +17,9 @@ sources: [raw/2026-09-30]
 
 ## 最近の動き
 
+- 2026-10-04 aria-at-app v1.26.1 が出た。テスター追加とセキュリティ修正が中心 ([リリース](https://github.com/w3c/aria-at-app/releases/tag/v1.26.1))。
+- 2026-10 新しい accessibility WebDriver コマンドで computed property (aria-label、aria-checked など) をテストする tentative テストの追加が提案された ([web-platform-tests/interop-accessibility#248](https://github.com/web-platform-tests/interop-accessibility/issues/248))。
+- 2026-10 `ariaNotify()` ([web-platform-tests/interop#1387](https://github.com/web-platform-tests/interop/issues/1387)) と Reference Target ([#1333](https://github.com/web-platform-tests/interop/issues/1333)) の focus area 提案が更新された。
 - 2026-09 Interop の Accessibility testing investigation area を来年も続けるかの評価 Issue が立った ([web-platform-tests/interop#1489](https://github.com/web-platform-tests/interop/issues/1489))。
 - 2026-09 Reference Target (Cross-Root ARIA) の focus area 提案が更新 ([web-platform-tests/interop#1333](https://github.com/web-platform-tests/interop/issues/1333))。
 - 2026-09-23 ARIA-AT CG で TPAC ブレイクアウトの準備 (テスト計画の構成・実行・結果の扱い) を議論 ([w3c-cg/aria-at#1402](https://github.com/w3c-cg/aria-at/issues/1402))。
