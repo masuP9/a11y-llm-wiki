@@ -2,8 +2,8 @@
 title: WAI-ARIA と AAM
 type: spec
 status: ED
-updated: 2026-10-04
-sources: [raw/2026-09-30, raw/2026-10-04]
+updated: 2026-10-11
+sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11]
 ---
 # WAI-ARIA と AAM
 
@@ -16,6 +16,12 @@ WAI-ARIA 1.3 と、HTML-AAM などのマッピング仕様。ARIA WG が担当�
 
 ## 最近の動き
 
+- 2026-10-08 ARIA WG 決議 1 件: 「`role=none` からグローバルな state と property を取り除く」。[w3c/aria#1288](https://github.com/w3c/aria/issues/1288) (author が conflict resolution を起こすのを禁じる) が対象で、action は pkra ([議事録](https://www.w3.org/2026/10/08-aria-minutes.html))。
+- 2026-10-08 radiogroup の posinset / setsize ([w3c/html-aam#598](https://github.com/w3c/html-aam/issues/598)): [[people/spectranaut]] が「ARIA はネイティブの radio の名前によるまとまりを上書きできない」と明確にする案と Chrome の修正案を出した。隣り合う radio を暗黙にグループ化することには反対があり、jcraig は ARIA のグループ化の仕組みを検討するよう提案。決議なし ([議事録](https://www.w3.org/2026/10/08-aria-minutes.html))。
+- 2026-10-08 「label」の用語 ([w3c/aria#2904](https://github.com/w3c/aria/issues/2904)): 「name」の意味での「label」の使用を減らす方向に支持があり、変更は最小限に。WCAG の定義の採用は支持されなかった。giacomo が方針を作る。決議なし ([議事録](https://www.w3.org/2026/10/08-aria-minutes.html))。
+- 2026-10-08 menu / group / menuitem の親子関係 PR ([w3c/aria#2483](https://github.com/w3c/aria/pull/2483)) は、間に入る role を足して定義を改めた版が再レビュー待ち。presentational role の conflict resolution の PR ([#2237](https://github.com/w3c/aria/pull/2237)) は、presentational の継承を廃止する案 ([#2509](https://github.com/w3c/aria/issues/2509)) の結果次第で影響を受ける (pkra の指摘)。child roles の PR [#2929](https://github.com/w3c/aria/pull/2929) は cyns、giacomo、jcraig がレビュー。TPAC の breakout の暫定スケジュールは翌週早くに出る見込み ([議事録](https://www.w3.org/2026/10/08-aria-minutes.html))。
+- 2026-10 「Allowed Accessibility Child Roles」の記述の明確化を求める Issue ([w3c/aria#2930](https://github.com/w3c/aria/issues/2930)、gsnedders、[#1033](https://github.com/w3c/aria/issues/1033) の続き)。ARIA の暗黙のセマンティクスを公開する案 ([#2663](https://github.com/w3c/aria/issues/2663)、37 コメント)、"accessibility descendant" ([#2832](https://github.com/w3c/aria/issues/2832)) が更新。Security 水平レビュー ([#2861](https://github.com/w3c/aria/issues/2861)) は Agenda 付きで更新。
+- 2026-10 HTML-AAM: image map を ATK_ROLE_IMAGE_MAP に対応させる提案 ([w3c/html-aam#614](https://github.com/w3c/html-aam/issues/614)、joanmarie。本文によれば Chromium は対応済み、Gecko は未対応、Orca は期待している)。`target` 属性の IA2 / ATK の mapping ([#613](https://github.com/w3c/html-aam/issues/613))。wpt/html-aam の再構成 ([#615](https://github.com/w3c/html-aam/issues/615))。HTML-ARIA に switch 属性付き checkbox の追加 ([w3c/html-aria#607](https://github.com/w3c/html-aria/issues/607))。
 - 2026-10-01 ARIA WG 決議 1 件: translatable attributes の editorial な変更 ([w3c/aria#2862](https://github.com/w3c/aria/pull/2862)) を merge する。[w3c/aria#2827](https://github.com/w3c/aria/issues/2827) も close ([議事録](https://www.w3.org/2026/10/01-aria-minutes.html))。
 - 2026-10-01 `aria-actions` の追加 PR ([w3c/aria#1805](https://github.com/w3c/aria/pull/1805)) は、関連 Issue [#2845](https://github.com/w3c/aria/issues/2845) の完了と実装が揃うまで editor's draft に入れない。TPAC でテスト作成のワークショップを開く案 ([議事録](https://www.w3.org/2026/10/01-aria-minutes.html))。
 - 2026-10-01 CSS の `::picker-icon` / `::checkmark` をアクセシビリティツリーから除くかは合意なし。luke が CSSWG に戻す ([議事録](https://www.w3.org/2026/10/01-aria-minutes.html)、[w3c/csswg-drafts#14316](https://github.com/w3c/csswg-drafts/issues/14316))。

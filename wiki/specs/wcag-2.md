@@ -2,8 +2,8 @@
 title: WCAG 2.x
 type: spec
 status: REC
-updated: 2026-10-04
-sources: [raw/2026-09-30, raw/2026-10-04]
+updated: 2026-10-11
+sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11]
 ---
 # WCAG 2.x
 
@@ -15,6 +15,10 @@ Web Content Accessibility Guidelines 2.0 / 2.1 / 2.2。リポジトリは [w3c/w
 
 ## 最近の動き
 
+- 2026-10 4.1.2 Name, Role, Value の Understanding に、対象は「利用者が設定できる」state / property に限ると明記する提案。`disabled` や `required` は対象外という整理 ([w3c/wcag#5395](https://github.com/w3c/wcag/issues/5395)、[[people/patrickhlauke]]、Substantive ラベル)。
+- 2026-10 3.3.8 / 3.3.9 の「authentication process」の定義を問う Issue が更新 (41 コメント、[w3c/wcag#3264](https://github.com/w3c/wcag/issues/3264))。内容は未確認。
+- 2026-10 CAV への導線と 2.4.6 / 3.3.2 の関係 ([w3c/wcag#5373](https://github.com/w3c/wcag/issues/5373)、15 コメント) と、3.3.2 でラベル不要な control の例 ([#4977](https://github.com/w3c/wcag/issues/4977)) が更新。1.4.10 Reflow の「functionality」([#5320](https://github.com/w3c/wcag/issues/5320)) は close。結論は未確認。
+- 2026-10 2.5.8 Target Size で、文中のリンクが隣接する control と接する場合 ([w3c/wcag#5384](https://github.com/w3c/wcag/issues/5384))、プログラミング言語を人間の言語とみなすか (1.4.3 / 1.4.6、[#5369](https://github.com/w3c/wcag/issues/5369))、Conformance の 5.4 節「Third Party Content」の名称誤り (ErratumRaised、[#5263](https://github.com/w3c/wcag/issues/5263)) も更新。
 - 2026-10 「フォーカス可能な要素に role が必須か」([w3c/wcag#3029](https://github.com/w3c/wcag/issues/3029)、61 コメント) が close。Issue 上は「working group response は長いスレッドの終わり近く」とあるが、結論は確認できず未確認。
 - 2026-10 SC 2.1.4 の例が薄く判別しにくいという Issue ([w3c/wcag#953](https://github.com/w3c/wcag/issues/953)) が close。focus indicator のスタイルガイドなど新規ガイダンス案 ([#5387](https://github.com/w3c/wcag/issues/5387)、[#5388](https://github.com/w3c/wcag/issues/5388)、[#5389](https://github.com/w3c/wcag/issues/5389)) も close された (理由は未確認)。
 - 2026-09-29 AGWG で [[people/patrickhlauke]] が、フォーカス可能な要素に role が必須かという議論 ([w3c/wcag#3029](https://github.com/w3c/wcag/issues/3029)、コメント 60 件) への意見を募った ([IRC](https://www.w3.org/2026/09/29-ag-irc))。

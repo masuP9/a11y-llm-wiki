@@ -1,8 +1,8 @@
 ---
 title: Interop と ARIA-AT (支援技術の相互運用テスト)
 type: topic
-updated: 2026-10-04
-sources: [raw/2026-09-30, raw/2026-10-04]
+updated: 2026-10-11
+sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11]
 ---
 # Interop と ARIA-AT
 
@@ -17,6 +17,9 @@ sources: [raw/2026-09-30, raw/2026-10-04]
 
 ## 最近の動き
 
+- 2026-10-07 ARIA-AT CG: 決議なし。disabled HTML button のテスト計画が Draft に進んだ。B キーの quick-key が disabled button に移る挙動は、失敗する optional assertion として記録することで合意 (JAWS は移らない)。VoiceOver の shift+j の不具合は macOS 26.6.2 で直る可能性がある。次回は 10-21 ([議事録](https://www.w3.org/2026/10/07-aria-at-minutes.html))。
+- 2026-10 aria-at に web-features カタログの採用を提案 ([w3c/aria-at#1414](https://github.com/w3c-cg/aria-at/issues/1414)、lolaodelola)。APG / HTML-AAM テストの再利用モジュール ([#1396](https://github.com/w3c-cg/aria-at/issues/1396))。NVDA が disabled button を section と読むという報告 ([#1415](https://github.com/w3c-cg/aria-at/issues/1415))。
+- 2026-10 次回 Interop Accessibility 会合は 2026-11-03 ([web-platform-tests/interop-accessibility#249](https://github.com/web-platform-tests/interop-accessibility/issues/249))。Interop 2026 の accessibility investigation ([#202](https://github.com/web-platform-tests/interop-accessibility/issues/202))、computed property のテスト ([#248](https://github.com/web-platform-tests/interop-accessibility/issues/248))、aria-description の公開先 ([#237](https://github.com/web-platform-tests/interop-accessibility/issues/237)) が更新。wpt/html-aam の再構成は [web-platform-tests/wpt#62897](https://github.com/web-platform-tests/wpt/issues/62897) と並行 ([w3c/html-aam#615](https://github.com/w3c/html-aam/issues/615) の本文より)。
 - 2026-10-04 aria-at-app v1.26.1 が出た。テスター追加とセキュリティ修正が中心 ([リリース](https://github.com/w3c/aria-at-app/releases/tag/v1.26.1))。
 - 2026-10 新しい accessibility WebDriver コマンドで computed property (aria-label、aria-checked など) をテストする tentative テストの追加が提案された ([web-platform-tests/interop-accessibility#248](https://github.com/web-platform-tests/interop-accessibility/issues/248))。
 - 2026-10 `ariaNotify()` ([web-platform-tests/interop#1387](https://github.com/web-platform-tests/interop/issues/1387)) と Reference Target ([#1333](https://github.com/web-platform-tests/interop/issues/1333)) の focus area 提案が更新された。

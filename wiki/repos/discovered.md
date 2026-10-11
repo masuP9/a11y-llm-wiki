@@ -33,3 +33,18 @@ type: repo
 | 2026-10-04 | [boxshell-org/BoxAgent](https://github.com/boxshell-org/BoxAgent) | 3 | Kotlin | AI / モバイル | 端末内 LLM による Android エージェント。accessibility で操作 |
 | 2026-10-04 | [ashu-choudhury/win_ig](https://github.com/ashu-choudhury/win_ig) | 3 | C# | AT 利用者向けアプリ | スクリーンリーダー対応の Windows 用 Instagram クライアント |
 | 2026-10-04 | [Shimmerfly/AccessHub](https://github.com/Shimmerfly/AccessHub) | 3 | Kotlin | モバイル | Android の Accessible Manager (詳細は未確認) |
+| 2026-10-11 | [franzenzenhofer/big-arrow-on-the-screen](https://github.com/franzenzenhofer/big-arrow-on-the-screen) | 625 | Swift | AI / skill | AI エージェントが Mac の画面に矢印・枠・文字を描く CLI。Claude Code / Codex 向け skill |
+| 2026-10-11 | [fatihaydost/brand-identity-skill](https://github.com/fatihaydost/brand-identity-skill) | 137 | Python | AI / skill | ロゴ・書体・配色を 1 つの brief から作る Claude Code skill |
+| 2026-10-11 | [9mtm/Web-Respect](https://github.com/9mtm/Web-Respect) | 51 | TypeScript | ツール | 読みやすさの設定と cookie 同意の制御 |
+| 2026-10-11 | [lcandy2/sim-agentation](https://github.com/lcandy2/sim-agentation) | 47 | Swift | AI / モバイル | 動作中の iOS シミュレータに注釈を付け、coding agent に渡す |
+| 2026-10-11 | [rbartoli/obsidian-tela-theme](https://github.com/rbartoli/obsidian-tela-theme) | 21 | JavaScript | ツール | Obsidian テーマ。文字色が WCAG AA を満たすと記載 |
+| 2026-10-11 | [abacusai/simless](https://github.com/abacusai/simless) | 15 | Swift | AI / アクセシビリティツリー | SwiftUI の画面を accessibility tree として描画する、シミュレータ不要の検査 ([[topics/a11y-tree-for-ai-agents]]) |
+| 2026-10-11 | [ghorbelhamdi/buddy-android](https://github.com/ghorbelhamdi/buddy-android) | 10 | Java | AI / モバイル | Claude Code / Codex に Android 端末を操作させる浮動チャット |
+| 2026-10-11 | [boburxd/broom-design](https://github.com/boburxd/broom-design) | 7 | JavaScript | AI / skill | AI コーディングエージェント向けの design skill とチェッカー |
+| 2026-10-11 | [alphaparkinc/genpark-agentic-browser-dom-snapshot-and-console-monitor-skill](https://github.com/alphaparkinc/genpark-agentic-browser-dom-snapshot-and-console-monitor-skill) | 7 | Python | AI / アクセシビリティツリー | ブラウザエージェント向けに a11y tree snapshot とコンソールログを取る (Alpha-Park 側に同名あり) |
+| 2026-10-11 | [dgl1984/spacetrace](https://github.com/dgl1984/spacetrace) | 6 | C++ | AT 利用者向けアプリ | Windows VST3 / CLAP 用のアクセシブルな binaural HRTF spatializer |
+| 2026-10-11 | [OnjLouis/ElevenLabsSpeechGenerator](https://github.com/OnjLouis/ElevenLabsSpeechGenerator) | 5 | C# | AT 利用者向けアプリ | ElevenLabs の音声生成・文字起こしのアクセシブルなネイティブアプリ |
+| 2026-10-11 | [TheRogue76/macos-harness](https://github.com/TheRogue76/macos-harness) | 4 | Swift | AI / アクセシビリティツリー | coding agent に macOS アプリを見せて操作させる。accessibility tree を使う ([[topics/a11y-tree-for-ai-agents]]) |
+| 2026-10-11 | [athee06/VisionMate](https://github.com/athee06/VisionMate) | 3 | Python | AT 利用者向けアプリ | NVDA 用のオフライン画像説明アドオン |
+| 2026-10-11 | [BbekShr/mayacharts](https://github.com/BbekShr/mayacharts) | 3 | TypeScript | UI ライブラリ | 依存なしのアクセシブルなチャート |
+| 2026-10-11 | [alexriderspy/heyflitty](https://github.com/alexriderspy/heyflitty) | 3 | HTML | AI | 音声で質問するとボタンの位置にカーソルを飛ばす画面アシスタント |

@@ -2,8 +2,8 @@
 title: WCAG 3.0
 type: spec
 status: WD
-updated: 2026-10-04
-sources: [raw/2026-09-30, raw/2026-10-04]
+updated: 2026-10-11
+sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11]
 ---
 # WCAG 3.0
 
@@ -18,6 +18,10 @@ W3C Accessibility Guidelines 3.0。AGWG が策定中の次世代ガイドライ�
 
 ## 最近の動き
 
+- 2026-10-06 AGWG で「mechanism」の定義が主題。WCAG 2 の「a mechanism is available」が曖昧なため、語をやめて「users can」と書く案が出た。平易さを支持する声がある一方、法務の観点などから、主語が UA・インターフェースから利用者に移るという懸念が複数出た。UA 実装か author 実装かを示すタグの案もあった。決議なし。音と音声の用語 (dialogue、speech、non-speech sounds など) は [GitHub discussion #899](https://github.com/w3c/wcag3/discussions/899) で 1〜2 週間議論する ([議事録](https://www.w3.org/2026/10/06-ag-minutes.html)。取得できた本文に RESOLUTION 行は無かったが、休憩後の subgroup 作業の部分は含まれておらず、決議の有無は完全には確認できていない)。
+- 2026-10 mcking65 が「accessibility supported」の問題分析と提案を起票した ([w3c/wcag3#901](https://github.com/w3c/wcag3/issues/901))。用語が author の実装方法と UA の機能の両方を指して一貫せず、author が実行できる要件になっていないという分析。PR [#902](https://github.com/w3c/wcag3/pull/902) は、この語を「user agent supported method」と「user agent test set」に置き換え、新設の Testing 節に移し、test set の宣言と method の支持の証明を規範的要件とし、中核の適合要件を改める。AGWG の合意を前提とした探索的な方向で、決定ではない。
+- 2026-10 「language adjustable」系の provision (Caption / Audio description) を「applies when」形式に揃えるか ([w3c/wcag3#900](https://github.com/w3c/wcag3/issues/900)、ashleemboyer)。mcking65 は「Change of focus notified」の「programmatically」の意図が不明という Issue も起票 ([#897](https://github.com/w3c/wcag3/issues/897))。#885 の用語整理の続き。
+- 2026-10 Pseudo-motion を独立した provision にするか ([w3c/wcag3#739](https://github.com/w3c/wcag3/issues/739)、4 コメント)。AFixt (karlgroves) が 2026-09-10 版 WD へのコメントを提出 ([#874](https://github.com/w3c/wcag3/issues/874))。
 - 2026-09-30〜10-04 mcking65 が「programmatically」系の用語を整理する Issue を連続して起票した。[#885](https://github.com/w3c/wcag3/issues/885) は「programmatically determinable」の定義が使われ方に合わないとして、定義を「Exposed to user agents in an application programming interface」に置き換える案を出している。同義語から「programmatically」を外す PR [#886](https://github.com/w3c/wcag3/pull/886) も参照されている (PR の状態は未確認)。個別の provision への Issue が続く: [#884](https://github.com/w3c/wcag3/issues/884) (Decorative images hidden)、[#883](https://github.com/w3c/wcag3/issues/883)・[#882](https://github.com/w3c/wcag3/issues/882) (Risk comparable)、[#889](https://github.com/w3c/wcag3/issues/889) (Changes to elements notified)、[#890](https://github.com/w3c/wcag3/issues/890) (視覚ラベルと programmatic name の要件を分ける)、[#892](https://github.com/w3c/wcag3/issues/892) (All steps listed)、[#894](https://github.com/w3c/wcag3/issues/894) (Return to start prominent)。いずれもコメント 1 件以下で、議論はこれから。
 - 2026-10 decorative images の定義の Issue [#878](https://github.com/w3c/wcag3/issues/878) が 34 コメントに伸びた。内容は未確認。
 - 2026-10 「single pointer」と「simple pointer」が紛らわしいという Issue [#643](https://github.com/w3c/wcag3/issues/643) が close (理由は未確認)。
