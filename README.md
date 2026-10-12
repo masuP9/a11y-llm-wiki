@@ -4,8 +4,7 @@ Web アクセシビリティの標準 (WCAG / ARIA / HTML / CSS の水平レビ�
 
 [Jxck/tc39-llm-wiki](https://blog.jxck.io/entries/2026-06-29/tc39-llm-wiki.html) と Karpathy の [LLM-Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) を参考にしている。
 
-- 最新の週次ダイジェスト: [`wiki/weekly/`](wiki/weekly/) (Issue ラベル `digest` でも配信)
-- 目次: [`wiki/index.md`](wiki/index.md)
+- 最新の週次ダイジェスト: [`wiki/weekly/`](wiki/weekly/)- 目次: [`wiki/index.md`](wiki/index.md)
 
 ## 仕組み
 
@@ -16,14 +15,12 @@ flowchart LR
   R --> W[/weekly<br>Claude Code/]
   W --> K[wiki/specs, topics, people, repos]
   W --> D[wiki/weekly/YYYY-Www.md]
-  D --> I[GitHub Issue で通知]
 ```
 
 毎週月曜 08:47 JST に GitHub Actions (`.github/workflows/weekly.yml`) が実行する。
 
 1. `collect.py` が前回実行以降の差分を収集して `raw/` に保存し commit する (決定的処理、LLM 不使用)
 2. `anthropics/claude-code-action` が `/weekly` を実行し、wiki を更新して週次ダイジェストを書く
-3. ダイジェストを Issue として投稿する
 
 ## セットアップ
 
