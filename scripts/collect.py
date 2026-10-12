@@ -171,16 +171,22 @@ def collect_repo(src: dict, since: dt.datetime, max_pages: int) -> list[dict]:
     return items
 
 
-def collect_releases(repo: str, since: dt.datetime) -> list[dict]:
+def collect_releases(repo: str, since: dt.datetime, keywords: list[str] | None = None) -> list[dict]:
     data = gh(f"/repos/{repo}/releases", {"per_page": 10})
     out = []
     for r in data or []:
+        body = r.get("body") or ""
+        if keywords:
+            lines = [l for l in body.splitlines() if hit(l, keywords)]
+            if not lines and not hit(r.get("name") or "", keywords):
+                continue
+            body = "\n".join(lines)
         pub = parse_time(r.get("published_at"))
         if pub and pub >= since and not r.get("draft"):
             out.append({
                 "repo": repo, "tag": r.get("tag_name"), "name": r.get("name"),
                 "url": r.get("html_url"), "published_at": r.get("published_at"),
-                "prerelease": r.get("prerelease"), "body": excerpt(r.get("body"), 800),
+                "prerelease": r.get("prerelease"), "body": excerpt(body, 800),
             })
     return out
 
@@ -375,8 +381,11 @@ def main() -> int:
         print(f"  repo {src['repo']}", file=sys.stderr)
 
     releases = []
-    for repo in [s["repo"] for s in cfg.get("spec_repos", [])] + cfg.get("release_watch", []):
-        releases += collect_releases(repo, since)
+    for s in cfg.get("spec_repos", []):
+        releases += collect_releases(s["repo"], since)
+    for w in cfg.get("release_watch", []):
+        repo, kws = (w, None) if isinstance(w, str) else (w["repo"], w.get("keywords"))
+        releases += collect_releases(repo, since, kws)
 
     minutes = collect_minutes(cfg.get("minutes", []), since, now)
     feeds = [e for src in cfg.get("feeds", []) for e in collect_feed(src, since)]

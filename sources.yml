@@ -128,6 +128,12 @@ release_watch:
   - GoogleChrome/lighthouse
   - pa11y/pa11y
   - adobe/react-spectrum
+  - mui/base-ui
+  # keywords を付けると、名前または本文の行に含むものだけ拾い、本文は該当行だけにする
+  - repo: oxc-project/oxc
+    keywords: [jsx-a11y, a11y, accessib]
+  - repo: GoogleChrome/modern-web-guidance
+    keywords: [accessib, a11y, aria, screen reader, focus, inert, dialog, popover]
   - w3c/aria-at-app
 
 # ---------------------------------------------------------------
