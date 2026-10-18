@@ -48,3 +48,23 @@ type: repo
 | 2026-10-11 | [athee06/VisionMate](https://github.com/athee06/VisionMate) | 3 | Python | AT 利用者向けアプリ | NVDA 用のオフライン画像説明アドオン |
 | 2026-10-11 | [BbekShr/mayacharts](https://github.com/BbekShr/mayacharts) | 3 | TypeScript | UI ライブラリ | 依存なしのアクセシブルなチャート |
 | 2026-10-11 | [alexriderspy/heyflitty](https://github.com/alexriderspy/heyflitty) | 3 | HTML | AI | 音声で質問するとボタンの位置にカーソルを飛ばす画面アシスタント |
+| 2026-10-18 | [fauzulkc/circle-lens](https://github.com/fauzulkc/circle-lens) | 29 | Go | AT 利用者向けアプリ | マウスで円を 2 回描くと開く画面拡大鏡 (Windows・ブラウザ拡張) |
+| 2026-10-18 | [ynotdraw/slab-elements](https://github.com/ynotdraw/slab-elements) | 19 | TypeScript | UI ライブラリ | ネイティブ要素を土台にした headless Web Components |
+| 2026-10-18 | [A-l-an/FocalFlow](https://github.com/A-l-an/FocalFlow) | 16 | Java | AI / モバイル | Android の accessibility client と Python の AI バックエンドの研究プロトタイプ |
+| 2026-10-18 | [Greyland-Fireworks/audhd-ui-guide](https://github.com/Greyland-Fireworks/audhd-ui-guide) | 8 | — | ガイダンス | 自閉症と ADHD を併せ持つ利用者向け UI のガイド |
+| 2026-10-18 | [alphaparkinc/genpark-accessibility-tree-and-dom-action-selector-synthesizer-skill](https://github.com/alphaparkinc/genpark-accessibility-tree-and-dom-action-selector-synthesizer-skill) | 7 | Python | AI / アクセシビリティツリー | ARIA ノードと DOM からブラウザエージェント用のセレクタを生成 (Alpha-Park 側にも同名) |
+| 2026-10-18 | [alphaparkinc/genpark-manus-autonomous-web-browser-dom-actuator-skill](https://github.com/alphaparkinc/genpark-manus-autonomous-web-browser-dom-actuator-skill) | 7 | Python | AI / アクセシビリティツリー | DOM を AXTree に平坦化しロケータを生成 (Alpha-Park 側にも同名) |
+| 2026-10-18 | [medienbaecker/kirby-editoria11y](https://github.com/medienbaecker/kirby-editoria11y) | 6 | PHP | テスト | Kirby 用の Editoria11y チェッカー |
+| 2026-10-18 | [yuuki324/HideAccessibility](https://github.com/yuuki324/HideAccessibility) | 6 | Kotlin | モバイル | 選んだアプリにアクセシビリティが無効だと思わせる Xposed モジュール |
+| 2026-10-18 | [WannaBeSolopreneur/YapYap](https://github.com/WannaBeSolopreneur/YapYap) | 5 | Swift | 音声合成 / 音声入力 | Mac で任意のウィンドウを読み上げ、音声入力する (オンデバイス) |
+| 2026-10-18 | [mtr1920/opstrellis](https://github.com/mtr1920/opstrellis) | 5 | Rust | 音声入力 | macOS・Linux 用のオフライン音声ディクテーション |
+| 2026-10-18 | [triggeredcode/lucid](https://github.com/triggeredcode/lucid) | 5 | TypeScript | 音声入力 / AI | 音声から構造化ノートと図を作る。MCP ツール付き |
+| 2026-10-18 | [VitoorFranca/spokemark](https://github.com/VitoorFranca/spokemark) | 4 | TypeScript | キャプション | Mac の再生音のリアルタイム字幕と書き起こし (オンデバイス) |
+| 2026-10-18 | [monatis/okur](https://github.com/monatis/okur) | 3 | Rust | AT 利用者向けアプリ | JAWS のクリーンルーム再実装を目指す、AI エージェント製のスクリーンリーダー |
+| 2026-10-18 | [thyhellcat/nrps](https://github.com/thyhellcat/nrps) | 3 | Rust | AT 利用者向けアプリ | NVDA Remote Access 用のプライベートリレーサーバー |
+| 2026-10-18 | [TheIdeaPlace/QuickDescribe](https://github.com/TheIdeaPlace/QuickDescribe) | 3 | C# | AT 利用者向けアプリ | Windows のオンデバイス AI で画面・ウィンドウ・画像を説明。JAWS / NVDA / Narrator 向け |
+| 2026-10-18 | [Pranav435/stickersense](https://github.com/Pranav435/stickersense) | 3 | C# | AT 利用者向けアプリ | チャットのスタンプ・GIF・画像をスクリーンリーダー利用者向けに読み上げる |
+| 2026-10-18 | [Ar5en1c/youxpc](https://github.com/Ar5en1c/youxpc) | 3 | Swift | AI / アクセシビリティツリー | Mac のウィンドウを番号付きテキストとして読み、accessibility 経由で操作する MCP サーバー |
+| 2026-10-18 | [yales66/wispstage](https://github.com/yales66/wispstage) | 3 | Swift | AI / テスト | coding agent 向けの SwiftUI Mac アプリ E2E テスト |
+| 2026-10-18 | [oficiallyAkshay/ensemble](https://github.com/oficiallyAkshay/ensemble) | 3 | Swift | AI / 入力 | 視線と手の動きで Claude desktop の Code セッションを操作 |
+| 2026-10-18 | [Tetrismonster/Musician-Containment-Facility](https://github.com/Tetrismonster/Musician-Containment-Facility) | 3 | Python | AT 利用者向けアプリ | スクリーンリーダー利用者向けのローカル音楽生成 |

@@ -2,8 +2,8 @@
 title: WCAG 2.x
 type: spec
 status: REC
-updated: 2026-10-11
-sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11]
+updated: 2026-10-18
+sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11, raw/2026-10-18]
 ---
 # WCAG 2.x
 
@@ -15,6 +15,10 @@ Web Content Accessibility Guidelines 2.0 / 2.1 / 2.2。リポジトリは [w3c/w
 
 ## 最近の動き
 
+- 2026-10-13 AGWG: adam が WCAG 2 の変更案の新しいバッチを 10-19 までのレビューとして告知 ([議事録](https://www.w3.org/2026/10/13-ag-minutes.html))。
+- 2026-10 [[people/patrickhlauke]] が Understanding と定義の編集 PR を連続して出した: 4.1.2 の「in brief」で「correct」を「appropriate」に ([w3c/wcag#5407](https://github.com/w3c/wcag/pull/5407))、`role` の定義の例を更新 ([#5404](https://github.com/w3c/wcag/pull/5404)、[#1476](https://github.com/w3c/wcag/issues/1476) を close する案)、「programmatically determined」の例に accessibility API を明記 ([#5403](https://github.com/w3c/wcag/pull/5403))、2.5.8 に 24×24 の根拠の note ([#5402](https://github.com/w3c/wcag/pull/5402))、3.3.2 の 2 つの例の修正 ([#5408](https://github.com/w3c/wcag/pull/5408))。4.1.2 の対象を利用者が設定できる state / property に限る提案は PR [#5399](https://github.com/w3c/wcag/pull/5399) として更新 ([#5395](https://github.com/w3c/wcag/issues/5395))。
+- 2026-10 yatil が Understanding の「Key Terms」見出しを「Relevant Glossary Entries」などに変える提案を起票。規範的な用語定義が補足的・任意に見えるという理由 ([w3c/wcag#5409](https://github.com/w3c/wcag/issues/5409)、6 コメント)。
+- 2026-10 1.4.11 Non-text contrast の Understanding にボタンの境界についての説明を足す PR ([w3c/wcag#5411](https://github.com/w3c/wcag/pull/5411)、[#865](https://github.com/w3c/wcag/issues/865) 対応)。CAV と 2.4.6 / 3.3.2 ([#5373](https://github.com/w3c/wcag/issues/5373)、20 コメント) が更新。
 - 2026-10 4.1.2 Name, Role, Value の Understanding に、対象は「利用者が設定できる」state / property に限ると明記する提案。`disabled` や `required` は対象外という整理 ([w3c/wcag#5395](https://github.com/w3c/wcag/issues/5395)、[[people/patrickhlauke]]、Substantive ラベル)。
 - 2026-10 3.3.8 / 3.3.9 の「authentication process」の定義を問う Issue が更新 (41 コメント、[w3c/wcag#3264](https://github.com/w3c/wcag/issues/3264))。内容は未確認。
 - 2026-10 CAV への導線と 2.4.6 / 3.3.2 の関係 ([w3c/wcag#5373](https://github.com/w3c/wcag/issues/5373)、15 コメント) と、3.3.2 でラベル不要な control の例 ([#4977](https://github.com/w3c/wcag/issues/4977)) が更新。1.4.10 Reflow の「functionality」([#5320](https://github.com/w3c/wcag/issues/5320)) は close。結論は未確認。

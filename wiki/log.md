@@ -6,3 +6,4 @@
 - 2026-09-30 weekly: raw/2026-09-30 → wiki/weekly/2026-W40.md (更新 13 ページ)
 - 2026-10-04 weekly: raw/2026-10-04 → wiki/weekly/2026-W40.md (追記。更新 9 ページ)
 - 2026-10-11 weekly: raw/2026-10-11 → wiki/weekly/2026-W41.md (更新 10 ページ)
+- 2026-10-18 weekly: raw/2026-10-18 → wiki/weekly/2026-W42.md (更新 10 ページ)

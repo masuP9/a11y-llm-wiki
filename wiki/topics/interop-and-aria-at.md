@@ -1,8 +1,8 @@
 ---
 title: Interop と ARIA-AT (支援技術の相互運用テスト)
 type: topic
-updated: 2026-10-11
-sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11]
+updated: 2026-10-18
+sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11, raw/2026-10-18]
 ---
 # Interop と ARIA-AT
 
@@ -17,6 +17,8 @@ sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11]
 
 ## 最近の動き
 
+- 2026-10 [[people/spectranaut]] が Core-AAM の `aamtest` を API 別に書く Issue を起票: ATSPI ([web-platform-tests/interop-accessibility#254](https://github.com/web-platform-tests/interop-accessibility/issues/254))、UIA ([#251](https://github.com/web-platform-tests/interop-accessibility/issues/251)。hatheo が role テストに着手済み)、AX API ([#252](https://github.com/web-platform-tests/interop-accessibility/issues/252))、IA2 ([#253](https://github.com/web-platform-tests/interop-accessibility/issues/253))。HTML-AAM の概念を Core-AAM のテストにどう対応させるか ([#255](https://github.com/web-platform-tests/interop-accessibility/issues/255))。zcorpan は CSS 生成コンテンツの alt のテストを提案 ([#250](https://github.com/web-platform-tests/interop-accessibility/issues/250))。
+- 2026-10 aria-at に HTML `a` (href 付き) のテスト計画を追加する PR ([w3c/aria-at#1419](https://github.com/w3c-cg/aria-at/pull/1419))。NVDA の disabled button の報告 ([#1415](https://github.com/w3c-cg/aria-at/issues/1415)) が更新。
 - 2026-10-07 ARIA-AT CG: 決議なし。disabled HTML button のテスト計画が Draft に進んだ。B キーの quick-key が disabled button に移る挙動は、失敗する optional assertion として記録することで合意 (JAWS は移らない)。VoiceOver の shift+j の不具合は macOS 26.6.2 で直る可能性がある。次回は 10-21 ([議事録](https://www.w3.org/2026/10/07-aria-at-minutes.html))。
 - 2026-10 aria-at に web-features カタログの採用を提案 ([w3c/aria-at#1414](https://github.com/w3c-cg/aria-at/issues/1414)、lolaodelola)。APG / HTML-AAM テストの再利用モジュール ([#1396](https://github.com/w3c-cg/aria-at/issues/1396))。NVDA が disabled button を section と読むという報告 ([#1415](https://github.com/w3c-cg/aria-at/issues/1415))。
 - 2026-10 次回 Interop Accessibility 会合は 2026-11-03 ([web-platform-tests/interop-accessibility#249](https://github.com/web-platform-tests/interop-accessibility/issues/249))。Interop 2026 の accessibility investigation ([#202](https://github.com/web-platform-tests/interop-accessibility/issues/202))、computed property のテスト ([#248](https://github.com/web-platform-tests/interop-accessibility/issues/248))、aria-description の公開先 ([#237](https://github.com/web-platform-tests/interop-accessibility/issues/237)) が更新。wpt/html-aam の再構成は [web-platform-tests/wpt#62897](https://github.com/web-platform-tests/wpt/issues/62897) と並行 ([w3c/html-aam#615](https://github.com/w3c/html-aam/issues/615) の本文より)。
