@@ -68,3 +68,21 @@ type: repo
 | 2026-10-18 | [yales66/wispstage](https://github.com/yales66/wispstage) | 3 | Swift | AI / テスト | coding agent 向けの SwiftUI Mac アプリ E2E テスト |
 | 2026-10-18 | [oficiallyAkshay/ensemble](https://github.com/oficiallyAkshay/ensemble) | 3 | Swift | AI / 入力 | 視線と手の動きで Claude desktop の Code セッションを操作 |
 | 2026-10-18 | [Tetrismonster/Musician-Containment-Facility](https://github.com/Tetrismonster/Musician-Containment-Facility) | 3 | Python | AT 利用者向けアプリ | スクリーンリーダー利用者向けのローカル音楽生成 |
+| 2026-10-25 | [littlebordercollie/mcd-together-order](https://github.com/littlebordercollie/mcd-together-order) | 100 | JavaScript | AT 利用者向けアプリ / AI | 知的障害のある学生が画像で選んで注文する、麦当労 MCP 点餐の試作 |
+| 2026-10-25 | [UltimateBursar24/alt-text](https://github.com/UltimateBursar24/alt-text) | 24 | C# | 代替テキスト / AI | 画像キャプションによる alt テキストの一括生成 (説明文が薄く内容は未確認) |
+| 2026-10-25 | [we1jia/AgentDock](https://github.com/we1jia/AgentDock) | 19 | Rust | AI | AI エージェントを音声で呼び出す macOS アプリ (Tauri 2) |
+| 2026-10-25 | [StylistPucker/read-aloud](https://github.com/StylistPucker/read-aloud) | 18 | — | AT 利用者向けアプリ | クリップボードの読み上げと audiobook 出力 (説明文なし) |
+| 2026-10-25 | [TurnOver-For-Mac/turnover](https://github.com/TurnOver-For-Mac/turnover) | 13 | Swift | スクリーンリーダー | VoiceOver と併用する macOS 用スクリーンリーダー |
+| 2026-10-25 | [maddhruv/pristine](https://github.com/maddhruv/pristine) | 13 | Astro | AI / 設計支援 | Web UI を批評・改善する agent skill |
+| 2026-10-25 | [my12yyds/modfx-accessibility](https://github.com/my12yyds/modfx-accessibility) | 10 | Python | ゲーム | Minecraft mod の視覚効果の accessibility 制御を宣言する manifest と validator の草案 |
+| 2026-10-25 | [spcaeo/toadstone](https://github.com/spcaeo/toadstone) | 7 | Python | テスト | axe-core を使う、セルフホストの SEO / accessibility クロール |
+| 2026-10-25 | [bytebeast/kissaten.nvim](https://github.com/bytebeast/kissaten.nvim) | 7 | Lua | テーマ | WCAG の contrast を確認済みの Neovim カラースキーム |
+| 2026-10-25 | [alphaparkinc/genpark-multimodal-palette-color-blindness-simulator-skill](https://github.com/alphaparkinc/genpark-multimodal-palette-color-blindness-simulator-skill) | 7 | Python | AI / 色覚 | 色覚多様性のシミュレーション skill (Alpha-Park 側に同名あり、hsv-color-palette-extractor skill も同系) |
+| 2026-10-25 | [abhayymishraa/sightline](https://github.com/abhayymishraa/sightline) | 6 | Swift | 入力 | Webcam の視線でキーボードフォーカスを移す (macOS / Windows) |
+| 2026-10-25 | [luckeyfaraday/phone-use](https://github.com/luckeyfaraday/phone-use) | 6 | JavaScript | AI / アクセシビリティツリー | AI エージェントが Android / iPhone の画面を読んで操作する MCP サーバー |
+| 2026-10-25 | [youssef4laa/artistic-color-palettes](https://github.com/youssef4laa/artistic-color-palettes) | 6 | Python | AI / 色 | 絵画の配色を OKLCH のランプ、contrast 測定付きのトークンにする agent skill |
+| 2026-10-25 | [priyanshusta/ZEHEN](https://github.com/priyanshusta/ZEHEN) | 5 | Python | 入力 | Webcam のジェスチャーと音声による Windows の操作 |
+| 2026-10-25 | [MHusted01/shortcutlens](https://github.com/MHusted01/shortcutlens) | 4 | Swift | ツール | Command 長押しで前面アプリのショートカットを表示 (macOS) |
+| 2026-10-25 | [Synapsr/Parler](https://github.com/Synapsr/Parler) | 6 | TypeScript | 入力 | 音声ディクテーション (macOS / Windows / Linux) |
+| 2026-10-25 | [OrchestraTech/BeethovenInterface](https://github.com/OrchestraTech/BeethovenInterface) | 3 | Python | 入力 | Mediapipe による視線のマウス操作 |
+| 2026-10-25 | [AyberkA0/oz-wm-macos](https://github.com/AyberkA0/oz-wm-macos) | 3 | Swift | ツール | Accessibility API 上の macOS 用タイリングウィンドウ管理 |

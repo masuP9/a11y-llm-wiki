@@ -1,6 +1,6 @@
 ---
 title: Index
-updated: 2026-10-18
+updated: 2026-10-25
 ---
 # a11y-llm-wiki
 
@@ -11,6 +11,7 @@ Web アクセシビリティの標準化動向と GitHub エコシステムの L
 - [[weekly/2026-W40]] — 2026-09-23 〜 2026-10-04 (2026-09-30 分に 2026-10-04 分を追記)
 - [[weekly/2026-W41]] — 2026-10-05 〜 2026-10-11
 - [[weekly/2026-W42]] — 2026-10-11 〜 2026-10-18
+- [[weekly/2026-W43]] — 2026-10-18 〜 2026-10-25
 
 ## 仕様 (specs)
 
@@ -30,6 +31,7 @@ Web アクセシビリティの標準化動向と GitHub エコシステムの L
 - [[people/spectranaut]]
 - [[people/patrickhlauke]]
 - [[people/rachaelbradley]]
+- [[people/scottaohara]]
 
 ## リポジトリ (repos)
 

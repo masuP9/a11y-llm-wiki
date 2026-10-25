@@ -2,8 +2,8 @@
 title: WCAG 2.x
 type: spec
 status: REC
-updated: 2026-10-18
-sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11, raw/2026-10-18]
+updated: 2026-10-25
+sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11, raw/2026-10-18, raw/2026-10-25]
 ---
 # WCAG 2.x
 
@@ -15,6 +15,10 @@ Web Content Accessibility Guidelines 2.0 / 2.1 / 2.2。リポジトリは [w3c/w
 
 ## 最近の動き
 
+- 2026-10 (10-18〜10-25) 3.3.2 の Understanding を明確化する PR ([w3c/wcag#4995](https://github.com/w3c/wcag/pull/4995)、[[people/scottaohara]]) が merge され、[#4977](https://github.com/w3c/wcag/issues/4977) が close。ラベル・説明の要否、radio / checkbox と select-only combobox の選択肢ラベルの扱いを段落に分けて書き直す内容 (PR 本文より)。CAV と 2.4.6 / 3.3.2 の Issue [#5373](https://github.com/w3c/wcag/issues/5373) (21 コメント) も close。結論は未確認。
+- 2026-10 [[people/patrickhlauke]] が Understanding の「Key Terms」を「Glossary」に改める PR を出した ([w3c/wcag#5413](https://github.com/w3c/wcag/pull/5413)、[#5409](https://github.com/w3c/wcag/issues/5409) 対応)。1.4.1 Use of Color の Understanding の note の contrast に関する表現を直す PR ([#5421](https://github.com/w3c/wcag/pull/5421))。きっかけは、色相が違わなくても明度差だけで例外を使えるかという質問 ([#5418](https://github.com/w3c/wcag/issues/5418))。Conformance 5.5 Statement of Partial Conformance - Language の文言が分かりにくいという Issue ([#5417](https://github.com/w3c/wcag/issues/5417)、ErratumRaised)。関連する PR [#5287](https://github.com/w3c/wcag/pull/5287) は close。
+- 2026-10 remibetin が relative-luminance.html の i18n の問題の修正を WCAG 2.1 ブランチに backport する PR ([w3c/wcag#5426](https://github.com/w3c/wcag/pull/5426)) と、古いスタイルシートを更新する Issue / PR ([#5424](https://github.com/w3c/wcag/issues/5424)、[#5425](https://github.com/w3c/wcag/pull/5425)) を出した。WCAG 2.2 の JSON に G101 の重複があるという報告 ([#5420](https://github.com/w3c/wcag/issues/5420)) は、報告者自身が自分のコードの不具合かもしれないとしている。
+- 2026-10 更新された議論: iOS の三本指ズームは「assistive technology」か ([#4717](https://github.com/w3c/wcag/issues/4717)、18 コメント)、Screen / Display / Reflow ([#799](https://github.com/w3c/wcag/issues/799)、21 コメント)、地図向け G227 (Map Equivalent Purpose Framework) の技術文書 PR ([#5305](https://github.com/w3c/wcag/pull/5305)、18 コメント)。内容は未確認。
 - 2026-10-13 AGWG: adam が WCAG 2 の変更案の新しいバッチを 10-19 までのレビューとして告知 ([議事録](https://www.w3.org/2026/10/13-ag-minutes.html))。
 - 2026-10 [[people/patrickhlauke]] が Understanding と定義の編集 PR を連続して出した: 4.1.2 の「in brief」で「correct」を「appropriate」に ([w3c/wcag#5407](https://github.com/w3c/wcag/pull/5407))、`role` の定義の例を更新 ([#5404](https://github.com/w3c/wcag/pull/5404)、[#1476](https://github.com/w3c/wcag/issues/1476) を close する案)、「programmatically determined」の例に accessibility API を明記 ([#5403](https://github.com/w3c/wcag/pull/5403))、2.5.8 に 24×24 の根拠の note ([#5402](https://github.com/w3c/wcag/pull/5402))、3.3.2 の 2 つの例の修正 ([#5408](https://github.com/w3c/wcag/pull/5408))。4.1.2 の対象を利用者が設定できる state / property に限る提案は PR [#5399](https://github.com/w3c/wcag/pull/5399) として更新 ([#5395](https://github.com/w3c/wcag/issues/5395))。
 - 2026-10 yatil が Understanding の「Key Terms」見出しを「Relevant Glossary Entries」などに変える提案を起票。規範的な用語定義が補足的・任意に見えるという理由 ([w3c/wcag#5409](https://github.com/w3c/wcag/issues/5409)、6 コメント)。

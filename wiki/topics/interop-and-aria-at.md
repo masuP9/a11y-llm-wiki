@@ -1,8 +1,8 @@
 ---
 title: Interop と ARIA-AT (支援技術の相互運用テスト)
 type: topic
-updated: 2026-10-18
-sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11, raw/2026-10-18]
+updated: 2026-10-25
+sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11, raw/2026-10-18, raw/2026-10-25]
 ---
 # Interop と ARIA-AT
 
@@ -17,6 +17,8 @@ sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11, raw/2026-10-18]
 
 ## 最近の動き
 
+- 2026-10-21 ARIA-AT CG: 決議なし。TPAC breakout ([w3c-cg/aria-at#1402](https://github.com/w3c-cg/aria-at/issues/1402)) を、ARIA-AT を WPT・BCD・web-features に結びつける内容に組み替える案。ARIA-AT のデータに web-features key を持たせる案を挙げ、Matt King は WCAG の method のテスト自動化と、WCAG 3 の accessibility support set の定義への活用を目標に挙げた。Tri-State Checkbox は VoiceOver の結果が食い違い再確認、HTML Button は JAWS / NVDA の実行が割り当て済みで VoiceOver に 3 件の conflict、disabled button は NVDA の結果を final にできる状態。disabled button は reading cursor を JavaScript で置けない問題 ([w3c-cg/aria-at#1415](https://github.com/w3c-cg/aria-at/issues/1415)) があり、自動 setup が不可能な場合のテスト方法を設計する Issue が立った ([#1421](https://github.com/w3c-cg/aria-at/issues/1421))。AT Driver で出力を取る案も出た ([議事録](https://www.w3.org/2026/10/21-aria-at-minutes.html))。reusable test modules ([#1396](https://github.com/w3c-cg/aria-at/issues/1396)) も更新。
+- 2026-10 cookiecrook が、アクセシビリティ関連の WPT にラベルが付いていなかった問題を Claude で洗い出して修正した経緯を述べ、AI の skill / tool をリポジトリに置くかを問う Issue を起票 ([web-platform-tests/interop-accessibility#256](https://github.com/web-platform-tests/interop-accessibility/issues/256))。Interop 2026 accessibility investigation ([interop-accessibility#202](https://github.com/web-platform-tests/interop-accessibility/issues/202)) は 13 コメントで更新。10-07 の会合 Issue ([#246](https://github.com/web-platform-tests/interop-accessibility/issues/246)) は close。
 - 2026-10 [[people/spectranaut]] が Core-AAM の `aamtest` を API 別に書く Issue を起票: ATSPI ([web-platform-tests/interop-accessibility#254](https://github.com/web-platform-tests/interop-accessibility/issues/254))、UIA ([#251](https://github.com/web-platform-tests/interop-accessibility/issues/251)。hatheo が role テストに着手済み)、AX API ([#252](https://github.com/web-platform-tests/interop-accessibility/issues/252))、IA2 ([#253](https://github.com/web-platform-tests/interop-accessibility/issues/253))。HTML-AAM の概念を Core-AAM のテストにどう対応させるか ([#255](https://github.com/web-platform-tests/interop-accessibility/issues/255))。zcorpan は CSS 生成コンテンツの alt のテストを提案 ([#250](https://github.com/web-platform-tests/interop-accessibility/issues/250))。
 - 2026-10 aria-at に HTML `a` (href 付き) のテスト計画を追加する PR ([w3c/aria-at#1419](https://github.com/w3c-cg/aria-at/pull/1419))。NVDA の disabled button の報告 ([#1415](https://github.com/w3c-cg/aria-at/issues/1415)) が更新。
 - 2026-10-07 ARIA-AT CG: 決議なし。disabled HTML button のテスト計画が Draft に進んだ。B キーの quick-key が disabled button に移る挙動は、失敗する optional assertion として記録することで合意 (JAWS は移らない)。VoiceOver の shift+j の不具合は macOS 26.6.2 で直る可能性がある。次回は 10-21 ([議事録](https://www.w3.org/2026/10/07-aria-at-minutes.html))。

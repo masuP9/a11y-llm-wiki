@@ -1,8 +1,8 @@
 ---
 title: CSS とアクセシビリティ
 type: topic
-updated: 2026-10-18
-sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11, raw/2026-10-18]
+updated: 2026-10-25
+sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11, raw/2026-10-18, raw/2026-10-25]
 ---
 # CSS とアクセシビリティ
 
@@ -17,6 +17,10 @@ CSSWG の提案のうち、アクセシビリティに関わるもの (`a11y-tra
 
 ## 最近の動き
 
+- 2026-10-21 APA WG: 決議なし。TPAC の割り当てと会合の重複調整が中心。Digital Credentials のコメントは追跡 Issue ([w3c/a11y-tracking#325](https://github.com/w3c/a11y-tracking/issues/325)) に集める。Extended Image Descriptions は PR #19 が懸念に対応していると matatk らが確認し、spec 側が求める 2 つの role のうち 1 つで足りる可能性を指摘 ([w3c/a11y-tracking#311](https://github.com/w3c/a11y-tracking/issues/311))。次回の APA は 11-11 ([議事録](https://www.w3.org/2026/10/21-apa-minutes.html))。
+- 2026-10 水平レビュー: CSS Color Module Level 5 の依頼が新規 (LC、2026-10-20 〜 2026-12-20、svgeesus。次は 2026 年 12 月または 2027 年 1 月の CR Snapshot の予定。[w3c/a11y-request#193](https://github.com/w3c/a11y-request/issues/193))。Security IG charter の依頼は close ([#188](https://github.com/w3c/a11y-request/issues/188))。
+- 2026-10 `prefers-bold-text` ([w3c/csswg-drafts#14477](https://github.com/w3c/csswg-drafts/issues/14477)) は 13 コメントで更新 (Agenda+ TPAC)。HDR の明るさを制限する preference の提案 ([#14616](https://github.com/w3c/csswg-drafts/issues/14616)) が a11y-tracker 付きで更新。
+- 2026-10 WHATWG HTML: dialog を閉じたとき、直前のフォーカス要素が無い場合にビューポートへフォーカスを移す提案 ([whatwg/html#13118](https://github.com/whatwg/html/issues/13118)、[#13119](https://github.com/whatwg/html/pull/13119))、`document.advanceFocus()` / `beforefocus` の統合提案 ([#13104](https://github.com/whatwg/html/issues/13104))、focus-without-user-activation と cross-origin autofocus ([#13105](https://github.com/whatwg/html/issues/13105))、フォーカス可能な要素が `:active` に一致するか ([#13116](https://github.com/whatwg/html/issues/13116))。`focusreset` の PR ([#13050](https://github.com/whatwg/html/pull/13050)) は 7 コメントで更新。いずれも内容は PR / Issue 本文のみ確認。
 - 2026-10-14 APA WG: CSS Color 4 の水平レビュー (期限 2026-12-09) は内部の追跡がまだ無い。css-content で画像の読み込み失敗時・無効時に alt を描画する案に賛成が多く、PaulG が Issue を追う。`content: url(broken)` で壊れた画像アイコンを出すかは matatk がコメントを書く。RESOLUTION 行なし ([議事録](https://www.w3.org/2026/10/14-apa-minutes.html))。
 - 2026-10 css-forms-1 の `::picker-icon` / `::checkmark` の空 alt ([w3c/csswg-drafts#14316](https://github.com/w3c/csswg-drafts/issues/14316)) は 16 コメントに。ARIA WG は `::checkmark` などの mapping は行うべきとし、TPAC で議論する ([議事録](https://www.w3.org/2026/10/15-aria-minutes.html))。overflow marker / button に意味的 property を付ける仕組み ([#12269](https://github.com/w3c/csswg-drafts/issues/12269)) が更新。ARIA WG では overflow:clip / line-clamp での AT と晴眼者の体験差が時間切れで先送り。
 - 2026-10 WHATWG: focusgroup 属性の PR ([whatwg/html#11723](https://github.com/whatwg/html/pull/11723)、14 コメント)、`focusreset` イベントの PR ([#13050](https://github.com/whatwg/html/pull/13050))、sequential focus navigation の公開案 ([#13051](https://github.com/whatwg/html/issues/13051)) が更新。video の `poster` 要素の提案 ([whatwg/html#12585](https://github.com/whatwg/html/pull/12585)、本文は未確認) に対し、HTML-AAM / ARIA in HTML に追加する Issue が出た (scottjehl、[w3c/html-aam#618](https://github.com/w3c/html-aam/issues/618))。

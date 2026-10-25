@@ -1,8 +1,8 @@
 ---
 title: AI エージェントとアクセシビリティツリー
 type: topic
-updated: 2026-10-18
-sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11, raw/2026-10-18]
+updated: 2026-10-25
+sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11, raw/2026-10-18, raw/2026-10-25]
 ---
 # AI エージェントとアクセシビリティツリー
 
@@ -19,6 +19,7 @@ AI エージェント (computer use、ブラウザ操作) が画面を読む手�
 
 ## 最近の動き
 
+- 2026-10-25 の収集: [luckeyfaraday/phone-use](https://github.com/luckeyfaraday/phone-use) (★6、Android / iPhone の画面を読み操作する MCP サーバー + CLI)、[lahfir/agent-desktop](https://github.com/lahfir/agent-desktop) (★1821、OS のアクセシビリティツリーで操作。既存・期間内に push)、[AgentiLoop/Agent](https://github.com/AgentiLoop/Agent) (★649、macOS の Accessibility でアプリを操作)、[niki914/zafiro](https://github.com/niki914/zafiro) (★299、Android の BYOK エージェント) が目立つ。標準側では、cookiecrook が WPT のラベル付けに Claude を使った経緯から AI の skill / tool の置き場を問う Issue を起票 ([web-platform-tests/interop-accessibility#256](https://github.com/web-platform-tests/interop-accessibility/issues/256))。
 - 2026-10-18 の収集: accessibility API を使うエージェント向けの新規リポジトリが続いた。[Ar5en1c/youxpc](https://github.com/Ar5en1c/youxpc) (★3、Mac のウィンドウを番号付きテキストとして読む MCP サーバー)、[yales66/wispstage](https://github.com/yales66/wispstage) (★3、SwiftUI Mac アプリの E2E テスト)、[alphaparkinc/genpark-accessibility-tree-and-dom-action-selector-synthesizer-skill](https://github.com/alphaparkinc/genpark-accessibility-tree-and-dom-action-selector-synthesizer-skill) (★7、ARIA ノードから CSS/ARIA セレクタを生成。Alpha-Park 側にも同名あり)。既存では [openclaw/AXorcist](https://github.com/openclaw/AXorcist) (★327)、[iFurySt/open-computer-use](https://github.com/iFurySt/open-computer-use) (★2499) が期間内に push。詳細は [[repos/discovered]]。
 - 2026-10 ACT-Rules CG が AI の利用方針の策定を始めた ([act-rules/act-rules.github.io#2463](https://github.com/act-rules/act-rules.github.io/issues/2463))。W3C の標準化作業での AI 利用としては、COGA TF が TPAC で「W3C の作業で AI を使った教訓」を発表する予定 ([COGA 2026-10-12](https://www.w3.org/2026/10/12-coga-minutes.html))。
 - 2026-10-11 の収集でも、accessibility API / ツリーを使って coding agent に端末を操作させる新規リポジトリが続いた: [TheRogue76/macos-harness](https://github.com/TheRogue76/macos-harness) (★4、macOS)、[ghorbelhamdi/buddy-android](https://github.com/ghorbelhamdi/buddy-android) (★10、Android)、SwiftUI を accessibility tree として描画する [abacusai/simless](https://github.com/abacusai/simless) (★15)、a11y tree の snapshot を取る [alphaparkinc/genpark-agentic-browser-dom-snapshot-and-console-monitor-skill](https://github.com/alphaparkinc/genpark-agentic-browser-dom-snapshot-and-console-monitor-skill) (★7、Alpha-Park 側にも同名あり)。詳細は [[repos/discovered]]。

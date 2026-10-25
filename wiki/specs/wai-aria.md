@@ -2,8 +2,8 @@
 title: WAI-ARIA と AAM
 type: spec
 status: ED
-updated: 2026-10-18
-sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11, raw/2026-10-18]
+updated: 2026-10-25
+sources: [raw/2026-09-30, raw/2026-10-04, raw/2026-10-11, raw/2026-10-18, raw/2026-10-25]
 ---
 # WAI-ARIA と AAM
 
@@ -16,6 +16,11 @@ WAI-ARIA 1.3 と、HTML-AAM などのマッピング仕様。ARIA WG が担当�
 
 ## 最近の動き
 
+- 2026-10 (10-18〜10-25) smhigley が interactive list 用の `listview` role を追加する PR を出した ([w3c/aria#2951](https://github.com/w3c/aria/pull/2951)、[#2036](https://github.com/w3c/aria/issues/2036) 対応)。[[people/scottaohara]] は `th` の `scope=rowgroup` の mapping の PR ([#2950](https://github.com/w3c/aria/pull/2950)) と、main / banner / contentinfo の note を揃える editorial PR ([#2948](https://github.com/w3c/aria/pull/2948)) を出した。aria-hidden とフォーカスされた要素の期待を定める PR [#2181](https://github.com/w3c/aria/pull/2181) は 37 コメントで更新。
+- 2026-10 daniel-montalvo: ARIA 1.2 の notes の cleanup と respec validator の有効化が merge ([w3c/aria#2949](https://github.com/w3c/aria/pull/2949)、[#2928](https://github.com/w3c/aria/pull/2928))。ARIA Process を「evergreen」方式に向けて更新する PR ([#2947](https://github.com/w3c/aria/pull/2947))。
+- 2026-10 ARIA in HTML: scottaohara が `figcaption` の implicit role の更新 ([w3c/html-aria#611](https://github.com/w3c/html-aria/pull/611)、`caption` は許可するが非推奨)、`mark` の implicit role ([#613](https://github.com/w3c/html-aria/pull/613)、[#609](https://github.com/w3c/html-aria/issues/609) 対応)、video `poster` の allowances ([#615](https://github.com/w3c/html-aria/pull/615)、[#608](https://github.com/w3c/html-aria/issues/608) 対応) の PR を出した。冗長な暗黙 role の明示宣言に関する記述を簡素化する提案 ([#612](https://github.com/w3c/html-aria/issues/612))、`dd` / `dt` の許可 role ([#614](https://github.com/w3c/html-aria/issues/614))。hidden な `<label>` がフォームコントロールの名前になりうるかの Issue ([w3c/html-aam#370](https://github.com/w3c/html-aam/issues/370)、16 コメント) は close。結論は未確認。
+- 2026-10 APG: Disclosure Navigation Menu の keyboard support の記述を実装に合わせる PR ([w3c/aria-practices#3475](https://github.com/w3c/aria-practices/pull/3475)、[#1632](https://github.com/w3c/aria-practices/issues/1632)・[#1390](https://github.com/w3c/aria-practices/issues/1390) 対応)。color contrast settings の practice ページの PR ([#2991](https://github.com/w3c/aria-practices/pull/2991)) は 69 コメントで更新。accname の例が不適切という Issue ([w3c/accname#255](https://github.com/w3c/accname/issues/255)) が 11 コメントで更新 (Agenda ラベル)。
+- 2026-10 ACT-Rules: role-required-states-and-properties ルールを ARIA 1.3 に合わせる PR ([act-rules/act-rules.github.io#2466](https://github.com/act-rules/act-rules.github.io/pull/2466)、2 週間の Call for Review が必要と記載)。
 - 2026-10-15 ARIA WG: RESOLUTION 行なし。PR / Issue の triage が中心 ([議事録](https://www.w3.org/2026/10/15-aria-minutes.html))。
   - child roles の PR [w3c/aria#2929](https://github.com/w3c/aria/pull/2929) は ACT のレビュー待ちで、翌週の議題。Section 7 を DOM node 以外 (CSS が生成する構造) に広げる件 ([#2938](https://github.com/w3c/aria/issues/2938)) は TPAC 後に議論。
   - video の `poster` 要素の提案 ([w3c/html-aria#608](https://github.com/w3c/html-aria/issues/608)、[w3c/html-aam#618](https://github.com/w3c/html-aam/issues/618)) は HTML-AAM 側で扱い、HTML 側は初期段階。`form` 属性を relationship に map する案 ([html-aam#617](https://github.com/w3c/html-aam/issues/617))、`<select multiple size="1">` ([#616](https://github.com/w3c/html-aam/issues/616)) は今後の議題ラベル。
